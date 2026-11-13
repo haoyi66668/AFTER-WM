@@ -1,0 +1,34 @@
+{
+ "c1ctx128": {
+  "context": 128,
+  "dataset": "escphc",
+  "eval_starts": [
+   128,
+   160,
+   192
+  ],
+  "own_prep": true,
+  "train_t_min": 128
+ },
+ "c1ctx32": {
+  "context": 32,
+  "dataset": "escphc",
+  "eval_starts": [
+   64,
+   96,
+   128,
+   160,
+   192
+  ],
+  "own_prep": true,
+  "train_t_min": 64
+ },
+ "c1g005": {
+  "dataset": "escphc",
+  "gamma_fixed": 0.05
+ },
+ "c1g05": {
+  "dataset": "escphc",
+  "gamma_fixed": 0.5
+ }
+}

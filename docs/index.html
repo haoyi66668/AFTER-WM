@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>AFTER: A World Model with Adaptive Fast–Slow Timescales for Error-Driven Retention</title>
+<style>
+body { font-family: Calibri, Carlito, Arial, sans-serif; font-size: 12pt; background-color: white; color: black; margin: 12pt 16pt; }
+p { max-width: 90%; margin: 6pt 0; }
+p.title { font-size: 24pt; font-weight: bold; margin: 12pt 0 6pt 0; }
+h2 { font-size: 18pt; font-weight: bold; margin: 20pt 0 6pt 0; }
+table { margin: 8pt 0; }
+th, td { text-align: left; vertical-align: top; }
+td.nw { white-space: nowrap; }
+code { font-family: monospace; font-size: 11pt; }
+p.figure { margin: 14pt 0 2pt 0; }
+p.caption { margin: 2pt 0 14pt 0; }
+img { width: 90%; max-width: 1600px; height: auto; }
+img.panel { width: 45%; max-width: 800px; }
+</style>
+</head>
+<body>
+
+<p class="title">AFTER: A World Model with Adaptive Fast–Slow Timescales for Error-Driven Retention</p>
+<p>Anonymous authors</p>
+
+<h2>Abstract</h2>
+<p>In robotics and embodied AI, a core challenge for world models is adapting to sudden, persistent, yet initially unknown changes in robot dynamics during interaction. For instance, when a robotic arm grasps an object with an unknown payload, the robot dynamics change suddenly. If the world model fails to adapt, its prediction errors accumulate over the open-loop rollout and ultimately mislead the robot's actions. Existing world models, however, struggle to simultaneously satisfy three critical requirements for dynamics adaptation: responsiveness, reacting promptly to sudden changes to curb prediction error accumulation; stability, distinguishing persistent changes from transient disturbances to prevent incorrect updates; and persistence, retaining the adapted dynamics without new observations so that later predictions do not revert to the old dynamics. Inspired by predictive coding in the human brain with multi-timescale adaptation, we propose AFTER-WM, a world model with Adaptive Fast–slow Timescales for Error-driven Retention, whose prediction errors drive a fast correction that fades and a slow correction that persists, while dynamically adjusting the combination weights of pre-trained experts without altering them, to overcome the trade-offs among responsiveness, stability and persistence. On five simulated robot datasets and real UAV data, AFTER-WM has a lower multi-step mean error than all ten compared models and the highest mean return in a joint-failure control task. In simulation, its multi-step mean error is 16%–34% below the strongest compared model's and is also the lowest 1–4 steps after a change and under transient disturbances alone, and its step-40 error is the lowest as well, reflecting responsiveness, stability and persistence.</p>
+
+<p class="figure"><img src="assets/fig2.png" alt="Figure 2 of the paper" width="1600" height="449" /></p>
+<p class="caption">Figure 2 of the paper. Architecture of AFTER-WM. In context adaptation, the experts' prediction errors update the online memories. In the open-loop rollout, the experts' predictions get the fast and slow corrections and are summed with the combination weights.</p>
+
+<h2>Code</h2>
+<table id="code" border="1" cellspacing="3" cellpadding="5" width="90%">
+<tr>
+<th>Part</th>
+<th>Path</th>
+<th>Files to open</th>
+</tr>
+<tr>
+<td>Method</td>
+<td><code>afterwm/</code></td>
+<td><a href="../afterwm/model.py"><code>afterwm/model.py</code></a>, <a href="../afterwm/stage1.py"><code>afterwm/stage1.py</code></a></td>
+</tr>
+<tr>
+<td>Compared models</td>
+<td><code>baselines/</code></td>
+<td><a href="../baselines/rssm.py"><code>baselines/rssm.py</code></a>, <a href="../baselines/tdmpc2.py"><code>baselines/tdmpc2.py</code></a>, <a href="../baselines/tdmpc2_h40.py"><code>baselines/tdmpc2_h40.py</code></a>, <a href="../baselines/mlp.py"><code>baselines/mlp.py</code></a>, <a href="../baselines/grbal.py"><code>baselines/grbal.py</code></a>, <a href="../baselines/rebal.py"><code>baselines/rebal.py</code></a>, <a href="../baselines/mole.py"><code>baselines/mole.py</code></a>, <a href="../baselines/mbcd.py"><code>baselines/mbcd.py</code></a>, <a href="../baselines/gpmm.py"><code>baselines/gpmm.py</code></a>, <a href="../baselines/mts3.py"><code>baselines/mts3.py</code></a></td>
+</tr>
+<tr>
+<td>Training and evaluation pipeline</td>
+<td><code>pipeline/</code></td>
+<td><a href="../pipeline/trainer.py"><code>pipeline/trainer.py</code></a>, <a href="../pipeline/evaluate.py"><code>pipeline/evaluate.py</code></a></td>
+</tr>
+<tr>
+<td>Choices made on validation data</td>
+<td><code>selection/</code></td>
+<td><a href="../selection/gamma.py"><code>selection/gamma.py</code></a></td>
+</tr>
+<tr>
+<td>Experiments</td>
+<td><code>experiments/</code></td>
+<td><a href="../experiments/all_from_outputs.sh"><code>experiments/all_from_outputs.sh</code></a></td>
+</tr>
+<tr>
+<td>Statistics and figures</td>
+<td><code>afterwm_stats/</code>, <code>figures/</code></td>
+<td><a href="../afterwm_stats/paper_numbers.py"><code>afterwm_stats/paper_numbers.py</code></a>, <a href="../figures/table1.py"><code>figures/table1.py</code></a></td>
+</tr>
+<tr>
+<td>Overview</td>
+<td><code>README.md</code></td>
+<td><a href="../README.md"><code>README.md</code></a></td>
+</tr>
+<tr>
+<td>How to run</td>
+<td><code>docs/</code></td>
+<td><a href="../docs/REPRODUCE.md"><code>docs/REPRODUCE.md</code></a></td>
+</tr>
+<tr>
+<td>Results map</td>
+<td><code>docs/</code></td>
+<td><a href="../docs/RESULTS_MAP.md"><code>docs/RESULTS_MAP.md</code></a></td>
+</tr>
+<tr>
+<td>Fixed identifiers</td>
+<td><code>docs/</code></td>
+<td><a href="../docs/FIXED_IDENTIFIERS.md"><code>docs/FIXED_IDENTIFIERS.md</code></a></td>
+</tr>
+</table>
+
+<h2>Datasets</h2>
+<p>Six datasets: five simulated in MuJoCo and one of real flights. Two more folders hold data that are used for evaluation only. Each sequence has 300 transitions. The column "Sequences per split" gives training / validation / test / TEST_B (the paper's TE-B).</p>
+<table id="datasets" border="1" cellspacing="3" cellpadding="5" width="90%">
+<tr>
+<th>Dataset</th>
+<th>What changes</th>
+<th>Sequences per split</th>
+<th>Size of the folder (bytes)</th>
+<th>Data files</th>
+<th>Card</th>
+</tr>
+<tr>
+<td>JSHC</td>
+<td>Joint-Switch HalfCheetah: a random leg joint loses power every 100 steps.</td>
+<td class="nw">288 / 144 / 144 / 144</td>
+<td class="nw">14,025,317</td>
+<td><a href="../data/jshc/jshc_train.npz"><code>jshc_train.npz</code></a>, <a href="../data/jshc/jshc_val.npz"><code>jshc_val.npz</code></a>, <a href="../data/jshc/jshc_test.npz"><code>jshc_test.npz</code></a>, <a href="../data/jshc/jshc_testB.npz"><code>jshc_testB.npz</code></a></td>
+<td><a href="../datasets/cards/jshc.md"><code>jshc.md</code></a></td>
+</tr>
+<tr>
+<td>ESCP-HC</td>
+<td>HalfCheetah: gravity, joint damping and torso mass are scaled by new random factors every 100 steps.</td>
+<td class="nw">288 / 144 / 144 / 144</td>
+<td class="nw">24,201,632</td>
+<td><a href="../data/escphc/escphc_train.npz"><code>escphc_train.npz</code></a>, <a href="../data/escphc/escphc_val.npz"><code>escphc_val.npz</code></a>, <a href="../data/escphc/escphc_test.npz"><code>escphc_test.npz</code></a>, <a href="../data/escphc/escphc_testB.npz"><code>escphc_testB.npz</code></a></td>
+<td><a href="../datasets/cards/escphc.md"><code>escphc.md</code></a></td>
+</tr>
+<tr>
+<td>ESCP-HC beyond the training range</td>
+<td>ESCP-HC test data with the factors 1.5<sup><i>u</i></sup> drawn with <i>u</i> ~ U(−4, 4) instead of U(−3, 3); used for evaluation only.</td>
+<td class="nw">— / — / 144 / 144</td>
+<td class="nw">9,682,408</td>
+<td><a href="../data/escphc_beyond/escphc_test.npz"><code>escphc_test.npz</code></a>, <a href="../data/escphc_beyond/escphc_testB.npz"><code>escphc_testB.npz</code></a></td>
+<td><a href="../datasets/cards/escphc_beyond.md"><code>escphc_beyond.md</code></a></td>
+</tr>
+<tr>
+<td>Panda</td>
+<td>The payload, joint friction and motor strength of the arm change. A change happens once or several times, may go back or drift slowly, and transient disturbances such as pulses and impacts occur in between.</td>
+<td class="nw">288 / 144 / 144 / 144</td>
+<td class="nw">8,540,148</td>
+<td><a href="../data/panda/panda_train.npz"><code>panda_train.npz</code></a>, <a href="../data/panda/panda_val.npz"><code>panda_val.npz</code></a>, <a href="../data/panda/panda_test.npz"><code>panda_test.npz</code></a>, <a href="../data/panda/panda_testB.npz"><code>panda_testB.npz</code></a></td>
+<td><a href="../datasets/cards/panda.md"><code>panda.md</code></a></td>
+</tr>
+<tr>
+<td>UR5e</td>
+<td>The payload, joint friction and motor strength of the arm change. A change happens once or several times, may go back or drift slowly, and transient disturbances such as pulses and impacts occur in between.</td>
+<td class="nw">288 / 144 / 144 / 144</td>
+<td class="nw">7,244,120</td>
+<td><a href="../data/ur5e/ur5e_train.npz"><code>ur5e_train.npz</code></a>, <a href="../data/ur5e/ur5e_val.npz"><code>ur5e_val.npz</code></a>, <a href="../data/ur5e/ur5e_test.npz"><code>ur5e_test.npz</code></a>, <a href="../data/ur5e/ur5e_testB.npz"><code>ur5e_testB.npz</code></a></td>
+<td><a href="../datasets/cards/ur5e.md"><code>ur5e.md</code></a></td>
+</tr>
+<tr>
+<td>Hopper</td>
+<td>The torso mass, ground friction and motor strength change. A change happens once or several times, may go back or drift slowly, and transient disturbances such as pulses and impacts occur in between.</td>
+<td class="nw">288 / 144 / 144 / 144</td>
+<td class="nw">6,422,643</td>
+<td><a href="../data/hopper/hopper_train.npz"><code>hopper_train.npz</code></a>, <a href="../data/hopper/hopper_val.npz"><code>hopper_val.npz</code></a>, <a href="../data/hopper/hopper_test.npz"><code>hopper_test.npz</code></a>, <a href="../data/hopper/hopper_testB.npz"><code>hopper_testB.npz</code></a></td>
+<td><a href="../datasets/cards/hopper.md"><code>hopper.md</code></a></td>
+</tr>
+<tr>
+<td>ALFA</td>
+<td>Real data: sequences cut from public fixed-wing UAV flights with engine or control-surface faults.</td>
+<td class="nw">240 / 86 / 100 / 122</td>
+<td class="nw">10,607,244</td>
+<td><a href="../data/alfa/alfa_train.npz"><code>alfa_train.npz</code></a>, <a href="../data/alfa/alfa_val.npz"><code>alfa_val.npz</code></a>, <a href="../data/alfa/alfa_test.npz"><code>alfa_test.npz</code></a>, <a href="../data/alfa/alfa_testB.npz"><code>alfa_testB.npz</code></a></td>
+<td><a href="../datasets/cards/alfa.md"><code>alfa.md</code></a></td>
+</tr>
+<tr>
+<td>Control episodes</td>
+<td>Start conditions of the 48 test episodes of the joint-failure control task on JSHC; used for evaluation only.</td>
+<td class="nw">48 episodes (test)</td>
+<td class="nw">364,164</td>
+<td><a href="../data/control_episodes/episodes_test_v1.npz"><code>episodes_test_v1.npz</code></a></td>
+<td><a href="../datasets/cards/control_episodes.md"><code>control_episodes.md</code></a></td>
+</tr>
+</table>
+<p>More on the data: <a href="../data/README.md"><code>data/README.md</code></a> (datasheet), <a href="../docs/DATASETS.md"><code>docs/DATASETS.md</code></a> (overview), <a href="../DATA_LICENSE.md"><code>DATA_LICENSE.md</code></a> (licence).</p>
+
+<h2>Experiments</h2>
+<p>The table lists which items of the paper are covered. In the default mode the scripts run on a CPU, read the stored outputs in <code>outputs/</code> and write to <code>results/</code>. <a href="../docs/REPRODUCE.md"><code>docs/REPRODUCE.md</code></a> explains how to run them.</p>
+<table id="experiments" border="1" cellspacing="3" cellpadding="5" width="90%">
+<tr>
+<th>Paper item</th>
+<th>Script</th>
+<th>What it writes</th>
+</tr>
+<tr>
+<td>Table 1</td>
+<td><a href="../experiments/table1_main.sh"><code>experiments/table1_main.sh</code></a></td>
+<td>the numbers equal Table 1 of the paper</td>
+</tr>
+<tr>
+<td>Table 2</td>
+<td><a href="../experiments/table2_beyond_range.sh"><code>experiments/table2_beyond_range.sh</code></a>, <a href="../experiments/table2_no_change.sh"><code>table2_no_change.sh</code></a>, <a href="../experiments/table2_alfa.sh"><code>table2_alfa.sh</code></a>, <a href="../experiments/table2_control.sh"><code>table2_control.sh</code></a>; the table itself is written by <a href="../experiments/all_from_outputs.sh"><code>experiments/all_from_outputs.sh</code></a></td>
+<td>the four rows of Table 2</td>
+</tr>
+<tr>
+<td>Fig. 1b</td>
+<td><a href="../experiments/fig1b_change_phases.sh"><code>experiments/fig1b_change_phases.sh</code></a></td>
+<td>the error reduction by change phase</td>
+</tr>
+<tr>
+<td>Fig. 3</td>
+<td><a href="../experiments/fig3_per_step.sh"><code>experiments/fig3_per_step.sh</code></a></td>
+<td>the per-step errors</td>
+</tr>
+<tr>
+<td>Fig. 4</td>
+<td><a href="../experiments/fig4_robot_arm_examples.sh"><code>experiments/fig4_robot_arm_examples.sh</code></a></td>
+<td>arm poses at steps 5, 10, 20, 40 with the link deviations</td>
+</tr>
+<tr>
+<td>Fig. 6</td>
+<td><a href="../experiments/fig6a_errors_altered.sh"><code>experiments/fig6a_errors_altered.sh</code></a>, <a href="../experiments/fig6b_one_correction_removed.sh"><code>fig6b_one_correction_removed.sh</code></a>, <a href="../experiments/fig6c_retrained_one_correction.sh"><code>fig6c_retrained_one_correction.sh</code></a> (draws the figure), <a href="../experiments/fig6d_routing_without_errors.sh"><code>fig6d_routing_without_errors.sh</code></a></td>
+<td>the tests of the three designs</td>
+</tr>
+<tr>
+<td>Fig. 7</td>
+<td><a href="../experiments/fig7a_ablations.sh"><code>experiments/fig7a_ablations.sh</code></a>, <a href="../experiments/fig7b_sensitivity.sh"><code>fig7b_sensitivity.sh</code></a> (draws the figure)</td>
+<td>ablations and hyperparameter sensitivity</td>
+</tr>
+<tr>
+<td>Numbers in the text of Sec. 4.2, 4.4, 4.5, 4.6 and the 16%–34% of the abstract</td>
+<td><a href="../experiments/all_from_outputs.sh"><code>experiments/all_from_outputs.sh</code></a> → <code>results/paper_numbers.json</code></td>
+<td>queries without a change and with transient disturbances: <a href="../experiments/sec42_windows.sh"><code>experiments/sec42_windows.sh</code></a></td>
+</tr>
+<tr>
+<td>Supplementary text numbers that follow from the same stored outputs (per-step comparisons, change phases, alterations, removal by phase, models retrained with one correction, linear probes, control)</td>
+<td><a href="../experiments/all_from_outputs.sh"><code>experiments/all_from_outputs.sh</code></a>, <a href="../experiments/supp_e3_probes.sh"><code>experiments/supp_e3_probes.sh</code></a></td>
+<td>listed key by key in <a href="../docs/RESULTS_MAP.md"><code>docs/RESULTS_MAP.md</code></a></td>
+</tr>
+</table>
+
+<h2>Results</h2>
+<p class="figure"><img class="panel" src="assets/fig1b.png" alt="Figure 1 of the paper, panel (b)" width="800" height="425" /></p>
+<p class="caption">Figure 1b of the paper. AFTER-WM's error reduction over the closest compared model.</p>
+<p class="figure"><img src="assets/fig3.png" alt="Figure 3 of the paper" width="1600" height="372" /></p>
+<p class="caption">Figure 3 of the paper. Per-step error of all models on the five simulated datasets (left); AFTER-WM vs. the strongest compared model (right).</p>
+<p class="figure"><img src="assets/fig4.png" alt="Figure 4 of the paper" width="1600" height="296" /></p>
+<p class="caption">Figure 4 of the paper. Joint angles predicted by AFTER-WM and the strongest compared model, drawn as arm poses and starting 8 steps after a change.</p>
+<p class="figure"><img src="assets/fig6.png" alt="Figure 6 of the paper" width="1600" height="333" /></p>
+<p class="caption">Figure 6 of the paper. Tests of the three designs: alterations at test time in (a), (b) and (d), and retrained models in (c). On UR5e, (b) and (d) use 4 seeds.</p>
+<p class="figure"><img src="assets/fig7.png" alt="Figure 7 of the paper" width="1600" height="261" /></p>
+<p class="caption">Figure 7 of the paper. Multi-step mean error. (a) Ablations, retrained at about 0.70M parameters. (b) Sensitivity to <i>C</i> and <i>γ</i> on ESCP-HC.</p>
+
+<h2>Licence</h2>
+<p>Code: MIT (<a href="../LICENSE"><code>LICENSE</code></a>). Datasets and stored outputs: CC BY 4.0 (<a href="../DATA_LICENSE.md"><code>DATA_LICENSE.md</code></a>); the ALFA sequences keep ALFA's CC BY 4.0. Third-party code and data: <a href="../THIRD_PARTY_NOTICES.md"><code>THIRD_PARTY_NOTICES.md</code></a>. The images on this page are figures of the paper, shown for reference; they are not covered by the MIT or CC BY 4.0 grants of this repository.</p>
+
+</body>
+</html>

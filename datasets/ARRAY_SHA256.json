@@ -1,0 +1,3123 @@
+{
+ "data/alfa/alfa_test.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "341491462a55b716d44901a513f5065ada752f621ed45ab5dcb400804719725a",
+   "shape": [
+    100,
+    300,
+    3
+   ]
+  },
+  "cohort": {
+   "dtype": "<U8",
+   "sha256": "878753c05e89d4c10ab7047830ccdd73e18a44e91164b5ad99e0c1091c5df7d2",
+   "shape": [
+    100
+   ]
+  },
+  "fail_step": {
+   "dtype": "<f8",
+   "sha256": "50ba03260183df773df85bb4e826dfc6b927957f39f8d5c64ee6591cc93fc112",
+   "shape": [
+    100
+   ]
+  },
+  "failure_tail": {
+   "dtype": "<U64",
+   "sha256": "6eef80b67722a1d5e7c80262852e199a739870c58715544aaf7c95bb67d58f58",
+   "shape": [
+    100
+   ]
+  },
+  "max_gap_s": {
+   "dtype": "<f8",
+   "sha256": "b43d7304e02b2cdc520d8aabee65b95b73ba0fddb55393acc4030d6c99aebef8",
+   "shape": [
+    100,
+    7
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "9d25771fe3289779efa9619d876eff7c313f808e92c7483d85f737d98ddf56cc",
+   "shape": [
+    100,
+    301,
+    12
+   ]
+  },
+  "onset_index": {
+   "dtype": "<i8",
+   "sha256": "e59afd9fcbb2bb7b8a65554f2da6312274431746983a8a20f68a1645db3b53d5",
+   "shape": [
+    100
+   ]
+  },
+  "parent": {
+   "dtype": "<U40",
+   "sha256": "2841f66dff35f51a28397bcba10cfafc8fed91787c447ba3f5253c95ee6aaa6d",
+   "shape": [
+    100
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "3b1c573d39e2c16a2203af463e0d5ee43047137b073632df354f72947c9192fd",
+   "shape": [
+    100,
+    301
+   ]
+  },
+  "seq_name": {
+   "dtype": "<U80",
+   "sha256": "c471965a78a3265f4ef83010dcd56915cb930c9fbc1ca6ff3a5a0f5e06731de4",
+   "shape": [
+    100
+   ]
+  },
+  "sequence": {
+   "dtype": "<U16",
+   "sha256": "27fa9668a6ecc815b95f9045fc7fdf73443dc655d788dd8f843720309c69241e",
+   "shape": [
+    100
+   ]
+  },
+  "stratum": {
+   "dtype": "<U16",
+   "sha256": "f492baa7af3be68789e49f74d36055bee5443d7de33d20dd9bf974d748215883",
+   "shape": [
+    100
+   ]
+  },
+  "tau0_ns": {
+   "dtype": "<i8",
+   "sha256": "7e1003e97355e226e8aa109349c7aefcd936816ce746cd981cedd9c14131b619",
+   "shape": [
+    100
+   ]
+  },
+  "window_k": {
+   "dtype": "<i8",
+   "sha256": "b638006f8176daed43fa4f3cf5292a58191cb412baa568b5273b4d3cdc1f74fa",
+   "shape": [
+    100
+   ]
+  }
+ },
+ "data/alfa/alfa_testB.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "4216b6d7b2d0343d7174ff5b5c10f25bda38f72d5db76cfb701f350bad3d6582",
+   "shape": [
+    122,
+    300,
+    3
+   ]
+  },
+  "cohort": {
+   "dtype": "<U8",
+   "sha256": "236c5fd027e4da4a2ea8a8128a82b19bea5fd06332ee7f60aa294c6db1903d0e",
+   "shape": [
+    122
+   ]
+  },
+  "fail_step": {
+   "dtype": "<f8",
+   "sha256": "66b6e63a57631a829d2b69b85ff8a3e769b8c9e0887380b171005c35a4bd6711",
+   "shape": [
+    122
+   ]
+  },
+  "failure_tail": {
+   "dtype": "<U64",
+   "sha256": "bca71fe6e1a4a19dd695cb72f67d66e2cca56b09b7b627aa3cce10f9056483c4",
+   "shape": [
+    122
+   ]
+  },
+  "max_gap_s": {
+   "dtype": "<f8",
+   "sha256": "8c2a810534ba046a5b51fd9a0ec26c4aca85f8150ce95f0919003b4b3a86c12b",
+   "shape": [
+    122,
+    7
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "331bee9c9b72dd6b712ff09b737e2b9e04ba24b1434e31a74e830b6fc8110418",
+   "shape": [
+    122,
+    301,
+    12
+   ]
+  },
+  "onset_index": {
+   "dtype": "<i8",
+   "sha256": "b830fbf3fd6ef528de772617a81f04af62bf5c1d9e081d3fb8de28b2802f68c6",
+   "shape": [
+    122
+   ]
+  },
+  "parent": {
+   "dtype": "<U40",
+   "sha256": "df5bfd5593c177b24c328e995505c3f91212b409294cbf0f5e195227f4f6f1a5",
+   "shape": [
+    122
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "301b5f94203ef360d6d03525dde4747c54e28d224953fbafc827fd81ac2825d5",
+   "shape": [
+    122,
+    301
+   ]
+  },
+  "seq_name": {
+   "dtype": "<U80",
+   "sha256": "84f218ca24b8b1baa54ff004b755c824387bd5d029e1d28610846d4b83b3da09",
+   "shape": [
+    122
+   ]
+  },
+  "sequence": {
+   "dtype": "<U16",
+   "sha256": "6533764cd56b6f2c4d4c1e7cab3492695a099a9661de4bb875152efd5d62ea0b",
+   "shape": [
+    122
+   ]
+  },
+  "stratum": {
+   "dtype": "<U16",
+   "sha256": "cdee92ae9d9853beb7273680ea9a4e5868d5b80aab26cd40e64e3e0ede543cd4",
+   "shape": [
+    122
+   ]
+  },
+  "tau0_ns": {
+   "dtype": "<i8",
+   "sha256": "1d8afa1af1644fe65afb20573ba501d8374547fee71b65d21447eadf2ad2fb8e",
+   "shape": [
+    122
+   ]
+  },
+  "window_k": {
+   "dtype": "<i8",
+   "sha256": "b35ca32e6fc224dd8b6d6d2b63d058dc570f30404698036a3232e5bcff9d5f59",
+   "shape": [
+    122
+   ]
+  }
+ },
+ "data/alfa/alfa_train.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "f110efecee7e9a179813707c18689d76f48f68ad01d7a970a8e98a0e8d6dcb3a",
+   "shape": [
+    240,
+    300,
+    3
+   ]
+  },
+  "cohort": {
+   "dtype": "<U8",
+   "sha256": "3a847255e0d3d4eea9aeb860d2fdce4f97473b5cfb9123e32918f47617491ebe",
+   "shape": [
+    240
+   ]
+  },
+  "fail_step": {
+   "dtype": "<f8",
+   "sha256": "df305f5ed603c919d69dfc2d77a8b56cc9796b99a97237b98558cddb6ac07392",
+   "shape": [
+    240
+   ]
+  },
+  "failure_tail": {
+   "dtype": "<U64",
+   "sha256": "7aa90b6e24cace091e5ea6cafbc5c68fbf0b1f3de8f6071d92fa6a62a9e1bb14",
+   "shape": [
+    240
+   ]
+  },
+  "max_gap_s": {
+   "dtype": "<f8",
+   "sha256": "9bbae9d49978dc109798935d94b37f880e0a2b59c76a662d79b03c7a71f8a7b4",
+   "shape": [
+    240,
+    7
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "c2b06e913d2a70480133f381cceefbba5316510d771a33f93d05fdee6065dfb1",
+   "shape": [
+    240,
+    301,
+    12
+   ]
+  },
+  "onset_index": {
+   "dtype": "<i8",
+   "sha256": "0d273fd0f62213caf68d9266300ba4bf3a16db0c944cd10b5044c01628a761db",
+   "shape": [
+    240
+   ]
+  },
+  "parent": {
+   "dtype": "<U40",
+   "sha256": "fa99b695579a1b6ead9b6ed6963e37abef683bc18f24095f9b8e57ec637e4c56",
+   "shape": [
+    240
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "03d06a6022049b5827e5497f8f73593f19d10009377bdd0afb8feb0dea4ca424",
+   "shape": [
+    240,
+    301
+   ]
+  },
+  "seq_name": {
+   "dtype": "<U80",
+   "sha256": "a9fb72e12da34a482d73c49863d1308827d28168b05dd8b1da10dfbd3806bd46",
+   "shape": [
+    240
+   ]
+  },
+  "sequence": {
+   "dtype": "<U16",
+   "sha256": "6a984780d69b77a68bfca2d35bc8bb07c7c16f1dacee0befde5f8bf15c323e73",
+   "shape": [
+    240
+   ]
+  },
+  "stratum": {
+   "dtype": "<U16",
+   "sha256": "0578ebcc55f4caa0b8ef90a1e5feb01bdc5cfb99e32c623d68bbda2202768fe1",
+   "shape": [
+    240
+   ]
+  },
+  "tau0_ns": {
+   "dtype": "<i8",
+   "sha256": "499e6d460d1a712cc998062c0574827c3234fc816efe34950adfd87e3f638809",
+   "shape": [
+    240
+   ]
+  },
+  "window_k": {
+   "dtype": "<i8",
+   "sha256": "1d9ef511f7cc95c029839fbf2611cc4b0c5191d0f2de480b9211c88d92c0c391",
+   "shape": [
+    240
+   ]
+  }
+ },
+ "data/alfa/alfa_val.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "eaaa26a7cb8de96a0bb832f84debf2ecc43c20fefdc00988cfd29940f7b0558c",
+   "shape": [
+    86,
+    300,
+    3
+   ]
+  },
+  "cohort": {
+   "dtype": "<U8",
+   "sha256": "3c7507f1d596585291e6c2ac07d8167f62e0d3b13ae6415b8ffbd76eceebd825",
+   "shape": [
+    86
+   ]
+  },
+  "fail_step": {
+   "dtype": "<f8",
+   "sha256": "8f35dea3f77c7d4047ad5f935d6f6a22de3cacbb4a4f5184bb99272a2a05ba2c",
+   "shape": [
+    86
+   ]
+  },
+  "failure_tail": {
+   "dtype": "<U64",
+   "sha256": "21f51216f7658fcbf6d8b78db95103f1ef1f8e9080eeff807da5fa238dfda6f6",
+   "shape": [
+    86
+   ]
+  },
+  "max_gap_s": {
+   "dtype": "<f8",
+   "sha256": "70cdfb5a6d16100ae13d8d3cfeeb3ef0ed01dd8fab4adc5605b5483f1d71980a",
+   "shape": [
+    86,
+    7
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "a43315953c2bf0543bf68fa71a7200e368cf1826c7115df704e4ae85a2bd38f8",
+   "shape": [
+    86,
+    301,
+    12
+   ]
+  },
+  "onset_index": {
+   "dtype": "<i8",
+   "sha256": "0d273f44b30733101a4363c8ee3f1dd94b576f96ef6385c5f701b1a3862354ab",
+   "shape": [
+    86
+   ]
+  },
+  "parent": {
+   "dtype": "<U40",
+   "sha256": "447799982197f08bb713a0ef9288a8dd3d8e2f805f472d1eb90acf0aa2a84129",
+   "shape": [
+    86
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "fd1e59d08c2bba0b959e8d3b57c58e772d51a488045e75850f907b4c51002c9b",
+   "shape": [
+    86,
+    301
+   ]
+  },
+  "seq_name": {
+   "dtype": "<U80",
+   "sha256": "0f38bbead1004f76aad7e3e45af664a02809d625c5877107811e160faa037b21",
+   "shape": [
+    86
+   ]
+  },
+  "sequence": {
+   "dtype": "<U16",
+   "sha256": "926f97154589d4f65bb23511c92c468e7542a9017ce88c192b563d9eb5198611",
+   "shape": [
+    86
+   ]
+  },
+  "stratum": {
+   "dtype": "<U16",
+   "sha256": "0e8a1ae9efa7ad2175f0feaa6b9aff123619290126a7afe44c85bdcbb922a753",
+   "shape": [
+    86
+   ]
+  },
+  "tau0_ns": {
+   "dtype": "<i8",
+   "sha256": "0d7e66a1bb98bbbd6a8c43d5ccef7b1f0e318dee2663f444e8f3e472720e5ed1",
+   "shape": [
+    86
+   ]
+  },
+  "window_k": {
+   "dtype": "<i8",
+   "sha256": "a15339b1639cfbeb9091c5dd6894495aa5e0e0688891fb3c51c4e1e96ff9d060",
+   "shape": [
+    86
+   ]
+  }
+ },
+ "data/control_episodes/episodes_test_v1.npz": {
+  "fail": {
+   "dtype": "|i1",
+   "sha256": "57089d2ecb693530f6196eacb5a2732a13682203c57c4259be097f2d565c74ac",
+   "shape": [
+    48,
+    304
+   ]
+  },
+  "meta_json": {
+   "dtype": "<U15669",
+   "sha256": "3f84a2db92ec287f9248eba10085bcfecde2c764c10547b355fa78be56f3415d",
+   "shape": [
+    1
+   ]
+  },
+  "warm_act": {
+   "dtype": "<f4",
+   "sha256": "e6755743da6b8b2f23eb97a0a68ad3c00ef2a41c3be9b239e45659ae0fb1db40",
+   "shape": [
+    48,
+    64,
+    6
+   ]
+  },
+  "warm_obs": {
+   "dtype": "<f4",
+   "sha256": "ae70afd2d4508a8881c56a292766845d4179c84a431e2313ceea243730f8c0ef",
+   "shape": [
+    48,
+    65,
+    17
+   ]
+  }
+ },
+ "data/escphc/escphc_test.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "022f59d3fc3ed61217e7930f0b806345ba008cd61ec012c9f0f24cfad33a846b",
+   "shape": [
+    144,
+    300,
+    6
+   ]
+  },
+  "chg_eff": {
+   "dtype": "|b1",
+   "sha256": "0b4f649277d94a41c07e9df70a83a944c4abc84ac88ad01d2ab79c1d03c81539",
+   "shape": [
+    144,
+    3
+   ]
+  },
+  "chg_k": {
+   "dtype": "<i2",
+   "sha256": "2379913eaa88a8da976d4faab8c7acd15101627fc875df46c3869c7f970b020d",
+   "shape": [
+    144,
+    5
+   ]
+  },
+  "chg_state": {
+   "dtype": "<i2",
+   "sha256": "1e9e664abdfe044fb513226b23922a8b37415f1f978b597d6b77d0ea01a31959",
+   "shape": [
+    144,
+    3
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f",
+   "shape": [
+    144
+   ]
+  },
+  "damp_mult": {
+   "dtype": "<f4",
+   "sha256": "2f96e05a9f3f58ad4bf526ae7bce208dd3dbee4da15fc5f8792b51affe5df04f",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "eval_starts": {
+   "dtype": "<i2",
+   "sha256": "a0f1c8271fdf0619f108066e8c31ad24a5c2cde2b09b92ed542dcd249ecf6a62",
+   "shape": [
+    5
+   ]
+  },
+  "grav_mult": {
+   "dtype": "<f4",
+   "sha256": "17f0138ca2872b829a3d0a21c8817530492c3ba3720235ed571f14900fd23b61",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "grav_z": {
+   "dtype": "<f4",
+   "sha256": "45e128062d31dc0d9e223f861258e425d652196d325da3e0a2c226c3046c1281",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "kind": {
+   "dtype": "<U10",
+   "sha256": "2c1272fa6c3e5c96a7b71560fd94e047219437869b4e45ffc93b443cf38ffc73",
+   "shape": [
+    144
+   ]
+  },
+  "list_index": {
+   "dtype": "|i1",
+   "sha256": "2513495adb07f82781e372550cad2f371bb8a7cf7b3ca176aa70fd366486df68",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "mass_mult": {
+   "dtype": "<f4",
+   "sha256": "3771cf1e4d34770b5596f9f3f704640ee41e9f063d02d50fce7705665f509358",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "ae15d26fa3c123e06bec5a3a7ae5d6e9317750da40f74859dc752389178e5a29",
+   "shape": [
+    144,
+    301,
+    17
+   ]
+  },
+  "offset": {
+   "dtype": "<i2",
+   "sha256": "43b691101067f4948e7d85eac6cd7f7d477d8acf35a057979ae553627287a6d8",
+   "shape": [
+    144
+   ]
+  },
+  "parent": {
+   "dtype": "<U14",
+   "sha256": "d952af98f46e6a75d3537f90de0c376400e74d2bb36bfbda1dedc54d924b442a",
+   "shape": [
+    144
+   ]
+  },
+  "plan_seed": {
+   "dtype": "<i8",
+   "sha256": "5855f916812298a56ba874fa863ba59deba81926c562b18d6ec1186b12b278ae",
+   "shape": [
+    144
+   ]
+  },
+  "pool": {
+   "dtype": "<U4",
+   "sha256": "8e76feaf7368a3115b103098fe5084a77d02891bfa153fd35525d632b42084d9",
+   "shape": [
+    144
+   ]
+  },
+  "reset_seed": {
+   "dtype": "<i8",
+   "sha256": "0ef03e2402f7e6957fe91efd22f5e98df802b55309c918553105fd0c10812ba4",
+   "shape": [
+    144
+   ]
+  },
+  "sequence": {
+   "dtype": "<U4",
+   "sha256": "cb169e5d29516f38fe87736b640b57efc56f5f63a5130732118ba664eb1289e1",
+   "shape": [
+    144
+   ]
+  },
+  "since_group": {
+   "dtype": "|i1",
+   "sha256": "90980668dca5cfa97320cdf9698f8f0503aa524b53152f027885ce316b3fc13f",
+   "shape": [
+    144,
+    5
+   ]
+  },
+  "since_steps": {
+   "dtype": "<i2",
+   "sha256": "89134acb2066e7d001e1a91fdcc5d54466640dc33497cea887a78054f4967db2",
+   "shape": [
+    144,
+    5
+   ]
+  },
+  "task_id": {
+   "dtype": "<i2",
+   "sha256": "137f9640419272ecdb0e1e9a265cee3dd3d961dc9fe0891d41f3f05a775b4298",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "task_list": {
+   "dtype": "<i2",
+   "sha256": "677d75856b3993f3aa15b5fa55fa12e58c06170e017cd390bac03e800fd21b24",
+   "shape": [
+    144,
+    16
+   ]
+  }
+ },
+ "data/escphc/escphc_testB.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "0eb46436990b21957fb36747a27bb734098b61b5ddbc3b0e44e8b1cc8759dbca",
+   "shape": [
+    144,
+    300,
+    6
+   ]
+  },
+  "chg_eff": {
+   "dtype": "|b1",
+   "sha256": "6c9e522dfb7e7b9a0bbb33c32b83a1bf44847e13fabcd08b5e6f5ab25b7ea8f0",
+   "shape": [
+    144,
+    3
+   ]
+  },
+  "chg_k": {
+   "dtype": "<i2",
+   "sha256": "2a92e42eac9e5fecb2d90d25d954ee48fe3f5f9f9a999a8c29ec4f5158eaec21",
+   "shape": [
+    144,
+    5
+   ]
+  },
+  "chg_state": {
+   "dtype": "<i2",
+   "sha256": "024c77f42ef79788c02f29ce213611e0b82e569a564732c4214f4f382c1191ed",
+   "shape": [
+    144,
+    3
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f",
+   "shape": [
+    144
+   ]
+  },
+  "damp_mult": {
+   "dtype": "<f4",
+   "sha256": "47b407ed464a01b7ccacbc58c2d0a422b9cda958e9f5cbab9e6fb266258b4535",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "eval_starts": {
+   "dtype": "<i2",
+   "sha256": "a0f1c8271fdf0619f108066e8c31ad24a5c2cde2b09b92ed542dcd249ecf6a62",
+   "shape": [
+    5
+   ]
+  },
+  "grav_mult": {
+   "dtype": "<f4",
+   "sha256": "621e84397d21fd4684b1599cd89056703f492071bf03427f1a4cabb2252f68db",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "grav_z": {
+   "dtype": "<f4",
+   "sha256": "2b42ce4241c37ab716c34b1bc07e6aa1e7ff9b0a8ea340c139a4cfb05cfb4318",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "kind": {
+   "dtype": "<U10",
+   "sha256": "2c1272fa6c3e5c96a7b71560fd94e047219437869b4e45ffc93b443cf38ffc73",
+   "shape": [
+    144
+   ]
+  },
+  "list_index": {
+   "dtype": "|i1",
+   "sha256": "8b012ad2695fe59e73dd72a9746235ff2a253cfeabeac899b46dcc537cbab1c7",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "mass_mult": {
+   "dtype": "<f4",
+   "sha256": "bee24de61068300673568c7c069000ae1c905a2bd9cb13f82924056f80aeb2f1",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "c29cbda3676e819a0ee63ce08ce058900acdd201914c72434743d759b1ff31a5",
+   "shape": [
+    144,
+    301,
+    17
+   ]
+  },
+  "offset": {
+   "dtype": "<i2",
+   "sha256": "6269f09c0261e9aa088d14bcfa6241ab314087269b5a59b32811334e5755e789",
+   "shape": [
+    144
+   ]
+  },
+  "parent": {
+   "dtype": "<U15",
+   "sha256": "deda54221b8d0b7dffb630359cfe33a22e3943e468078cf916a563afefe106b9",
+   "shape": [
+    144
+   ]
+  },
+  "plan_seed": {
+   "dtype": "<i8",
+   "sha256": "dfa90a4fb2119322e300ab63712bbf8f1c4a01eccaee89ec9d103ad56c0d6a1f",
+   "shape": [
+    144
+   ]
+  },
+  "pool": {
+   "dtype": "<U4",
+   "sha256": "8e76feaf7368a3115b103098fe5084a77d02891bfa153fd35525d632b42084d9",
+   "shape": [
+    144
+   ]
+  },
+  "reset_seed": {
+   "dtype": "<i8",
+   "sha256": "c30039c1a085a2def0017c59dc0a613b540aab3692f16910565269fd4e3ed05c",
+   "shape": [
+    144
+   ]
+  },
+  "sequence": {
+   "dtype": "<U4",
+   "sha256": "cb169e5d29516f38fe87736b640b57efc56f5f63a5130732118ba664eb1289e1",
+   "shape": [
+    144
+   ]
+  },
+  "since_group": {
+   "dtype": "|i1",
+   "sha256": "f9b2d965c5941720c607fa93e31aaf89a3fd2cb668af5439527c6aa054bac098",
+   "shape": [
+    144,
+    5
+   ]
+  },
+  "since_steps": {
+   "dtype": "<i2",
+   "sha256": "82845561c51efcf4d5bddd1bc3c32ae3143e6ff214a1990f6377b44762b3700c",
+   "shape": [
+    144,
+    5
+   ]
+  },
+  "task_id": {
+   "dtype": "<i2",
+   "sha256": "ade2b9d576c1a227bb1f8f6f1eff0a8d4b9341463102f5993295e4cabb96974d",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "task_list": {
+   "dtype": "<i2",
+   "sha256": "36d9c3bce852b047fc34b11710d079711dc0964511ac91b8be36b71bbfe5e375",
+   "shape": [
+    144,
+    16
+   ]
+  }
+ },
+ "data/escphc/escphc_train.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "abfb970caac14635c5bb1c605de7dc9eb68ec28699d2243e93780280d3def206",
+   "shape": [
+    288,
+    300,
+    6
+   ]
+  },
+  "chg_eff": {
+   "dtype": "|b1",
+   "sha256": "ef4742ecb060627761f0bad7254c35495492264fb2ed22421257f63f40a86a59",
+   "shape": [
+    288,
+    3
+   ]
+  },
+  "chg_k": {
+   "dtype": "<i2",
+   "sha256": "ac18f958b6e35caaf492c2680c03c80c1df517a420e0a966142b2135495d7cbb",
+   "shape": [
+    288,
+    5
+   ]
+  },
+  "chg_state": {
+   "dtype": "<i2",
+   "sha256": "196fbcaf6575dbbd28c38d0cf533b0481afe0b989a108191035a71fcdcab049e",
+   "shape": [
+    288,
+    3
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "2d5565fb483d8ea4525a7a9229677d1038ad34b6e22c8d5152e1d7f7b9817597",
+   "shape": [
+    288
+   ]
+  },
+  "damp_mult": {
+   "dtype": "<f4",
+   "sha256": "9382ebc0d96e2679680be7f19a05c51af0216738f103e6ddb60b8fa3a418730a",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "eval_starts": {
+   "dtype": "<i2",
+   "sha256": "a0f1c8271fdf0619f108066e8c31ad24a5c2cde2b09b92ed542dcd249ecf6a62",
+   "shape": [
+    5
+   ]
+  },
+  "grav_mult": {
+   "dtype": "<f4",
+   "sha256": "0c54aef03a2325634fc3c9672a60764f5d57d33e16320244a64aa3af759d40d0",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "grav_z": {
+   "dtype": "<f4",
+   "sha256": "7713e9f45f776fba0fba6ca520852cc5f55b20698c9db77acfb6b549d26e97f7",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "kind": {
+   "dtype": "<U10",
+   "sha256": "ab2a887dcc6093e1089521a26fcb4d672b66544df4ce05048d327bb41c86c93a",
+   "shape": [
+    288
+   ]
+  },
+  "list_index": {
+   "dtype": "|i1",
+   "sha256": "2f59c1f41ba02d627d65afbd475c348ac48199dbdd8f8356fba43dc5aa177b7d",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "mass_mult": {
+   "dtype": "<f4",
+   "sha256": "4369379d1edd35b3b17164a920f161d39ebb1fea4c3688d01bed4a62fc13b1cd",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "2800102101d3945533ca5ec5580c56bea542c3f37bf55acfac1517b19d1ed598",
+   "shape": [
+    288,
+    301,
+    17
+   ]
+  },
+  "offset": {
+   "dtype": "<i2",
+   "sha256": "ea62bb3829c824b47368c79802909a62c068332df2942c0d97118a2fe5450fe4",
+   "shape": [
+    288
+   ]
+  },
+  "parent": {
+   "dtype": "<U15",
+   "sha256": "9aeecbfef77876748ad371cd9196cdee05666db096c7fa41ada1445068b67c01",
+   "shape": [
+    288
+   ]
+  },
+  "plan_seed": {
+   "dtype": "<i8",
+   "sha256": "d8d6d70fd08016de1a29888a81ad5770fe6066bb22ccf9431bce7daa9ec8a6a9",
+   "shape": [
+    288
+   ]
+  },
+  "pool": {
+   "dtype": "<U5",
+   "sha256": "f133f544e8b75e776d324f3be936911c7e93c1f73ba32cb8006a71dde207dd04",
+   "shape": [
+    288
+   ]
+  },
+  "reset_seed": {
+   "dtype": "<i8",
+   "sha256": "d5361185a302906973552b4ad4f77262fad850a2d1357a1d6305ddb46ed26861",
+   "shape": [
+    288
+   ]
+  },
+  "sequence": {
+   "dtype": "<U4",
+   "sha256": "2d1a5fd1e54a960c693f9f48265635b7b9e72a3ee50a541bd012546af5c61de0",
+   "shape": [
+    288
+   ]
+  },
+  "since_group": {
+   "dtype": "|i1",
+   "sha256": "64ce7dcf502cc64fc5d471f07ec0252f35f4920692b7903f3f41d9598cf8e090",
+   "shape": [
+    288,
+    5
+   ]
+  },
+  "since_steps": {
+   "dtype": "<i2",
+   "sha256": "9c909a6af8e1e2f91961910e0fa1ad21971c115752b23c90362fab4b99b33695",
+   "shape": [
+    288,
+    5
+   ]
+  },
+  "task_id": {
+   "dtype": "<i2",
+   "sha256": "d5f600d1dab3e009f88fcc12346180efacbfb6c5e1f3887ae062517205e9052e",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "task_list": {
+   "dtype": "<i2",
+   "sha256": "358d8c054f64158a12c37774b39814973974d8359b3c59a048e29a5e454bbd89",
+   "shape": [
+    288,
+    16
+   ]
+  }
+ },
+ "data/escphc/escphc_val.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "474410e9730fd9652257c06bddf266bd4d907f027067c6dfe74c7734cadac668",
+   "shape": [
+    144,
+    300,
+    6
+   ]
+  },
+  "chg_eff": {
+   "dtype": "|b1",
+   "sha256": "4c66df48c2a535a7129c021efc7d0119aefc78b7a49b7357547882d6491bf264",
+   "shape": [
+    144,
+    3
+   ]
+  },
+  "chg_k": {
+   "dtype": "<i2",
+   "sha256": "3831ac8f0a7cabe42aaceab464994da17d663b3db1dc7be6ddf716e9f47ad031",
+   "shape": [
+    144,
+    5
+   ]
+  },
+  "chg_state": {
+   "dtype": "<i2",
+   "sha256": "8e7a3813955ea7c77a40bd931bf4227669d10262d4854e8c88ba172c8df2b779",
+   "shape": [
+    144,
+    3
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f",
+   "shape": [
+    144
+   ]
+  },
+  "damp_mult": {
+   "dtype": "<f4",
+   "sha256": "c16f3bc0fd4f645518e93671f618fc30de6bdd6c29e7e319231bedc5839797a8",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "eval_starts": {
+   "dtype": "<i2",
+   "sha256": "a0f1c8271fdf0619f108066e8c31ad24a5c2cde2b09b92ed542dcd249ecf6a62",
+   "shape": [
+    5
+   ]
+  },
+  "grav_mult": {
+   "dtype": "<f4",
+   "sha256": "6a221dcb1c762dbe6f93a99367a10815e5ccd39f61b10d2b0e47f6a5fa4be88c",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "grav_z": {
+   "dtype": "<f4",
+   "sha256": "075d58899b3df336669c77cbd0c4fe7914ae9cf00d54808e33243dd05d3c3cf4",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "kind": {
+   "dtype": "<U10",
+   "sha256": "2c1272fa6c3e5c96a7b71560fd94e047219437869b4e45ffc93b443cf38ffc73",
+   "shape": [
+    144
+   ]
+  },
+  "list_index": {
+   "dtype": "|i1",
+   "sha256": "a57f5320052878f521f51edf82965cff9f08a3c9d8fcf317ac057c697b0f0a2a",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "mass_mult": {
+   "dtype": "<f4",
+   "sha256": "ea841d4f5a95347ccfb52e69bb6235babb3151a8e3ab3ff28f7a43d8103fe3a6",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "badf8e979e543a4684cdfe6e5311397683b9f81c947371e2e29a9c2f89a87306",
+   "shape": [
+    144,
+    301,
+    17
+   ]
+  },
+  "offset": {
+   "dtype": "<i2",
+   "sha256": "f1929f4c46c311910ae8e05797feb7c2e274883203bdccfe47701ba4739a18cd",
+   "shape": [
+    144
+   ]
+  },
+  "parent": {
+   "dtype": "<U13",
+   "sha256": "af933c6325de746af6873b1cfdae83cd6df1908323c0f1866a8afaf0e2d634ce",
+   "shape": [
+    144
+   ]
+  },
+  "plan_seed": {
+   "dtype": "<i8",
+   "sha256": "2ba90e9fe890e9dbb03c55786261612791b014b5acf6125cae8d81a704b8edef",
+   "shape": [
+    144
+   ]
+  },
+  "pool": {
+   "dtype": "<U4",
+   "sha256": "8e76feaf7368a3115b103098fe5084a77d02891bfa153fd35525d632b42084d9",
+   "shape": [
+    144
+   ]
+  },
+  "reset_seed": {
+   "dtype": "<i8",
+   "sha256": "e02466b6c6a2e3ba97db0b4400fe365cea0114f3105a3a9ba284ccd5748dde32",
+   "shape": [
+    144
+   ]
+  },
+  "sequence": {
+   "dtype": "<U4",
+   "sha256": "cb169e5d29516f38fe87736b640b57efc56f5f63a5130732118ba664eb1289e1",
+   "shape": [
+    144
+   ]
+  },
+  "since_group": {
+   "dtype": "|i1",
+   "sha256": "11e96fe8f3bf19c5d23122a046fdf318077d0be9f73cc0f0b41430ea4397507d",
+   "shape": [
+    144,
+    5
+   ]
+  },
+  "since_steps": {
+   "dtype": "<i2",
+   "sha256": "123f885916ee64ff2a29a1081fbf73e2fbf43621364f0d62b8b73ccf2022bfe8",
+   "shape": [
+    144,
+    5
+   ]
+  },
+  "task_id": {
+   "dtype": "<i2",
+   "sha256": "2f848665e0476b667ebd717b219b96780c1ef3a6f819378cbf4b74e162e1e466",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "task_list": {
+   "dtype": "<i2",
+   "sha256": "a9d3f7af2985b06d6a8e52959886aa2f2091f18eb4bf0e1451005bbb59e27d06",
+   "shape": [
+    144,
+    16
+   ]
+  }
+ },
+ "data/escphc_beyond/escphc_test.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "022f59d3fc3ed61217e7930f0b806345ba008cd61ec012c9f0f24cfad33a846b",
+   "shape": [
+    144,
+    300,
+    6
+   ]
+  },
+  "chg_eff": {
+   "dtype": "|b1",
+   "sha256": "0b4f649277d94a41c07e9df70a83a944c4abc84ac88ad01d2ab79c1d03c81539",
+   "shape": [
+    144,
+    3
+   ]
+  },
+  "chg_k": {
+   "dtype": "<i2",
+   "sha256": "2379913eaa88a8da976d4faab8c7acd15101627fc875df46c3869c7f970b020d",
+   "shape": [
+    144,
+    5
+   ]
+  },
+  "chg_state": {
+   "dtype": "<i2",
+   "sha256": "1e9e664abdfe044fb513226b23922a8b37415f1f978b597d6b77d0ea01a31959",
+   "shape": [
+    144,
+    3
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f",
+   "shape": [
+    144
+   ]
+  },
+  "damp_mult": {
+   "dtype": "<f4",
+   "sha256": "74d85c0bffe3b2414173b90667a233774e44f8159d404f3cd075ab5f17bb23c2",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "eval_starts": {
+   "dtype": "<i2",
+   "sha256": "a0f1c8271fdf0619f108066e8c31ad24a5c2cde2b09b92ed542dcd249ecf6a62",
+   "shape": [
+    5
+   ]
+  },
+  "grav_mult": {
+   "dtype": "<f4",
+   "sha256": "c350bfc9e0d5b6121cf23ce523a90f18a531cb1e9ab369867b07b59dfc242394",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "grav_z": {
+   "dtype": "<f4",
+   "sha256": "d7e3b986de07e82e60ef306ba8098d61bbdfc68ab1d5fc2e49d3e00d39053fa8",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "kind": {
+   "dtype": "<U10",
+   "sha256": "2c1272fa6c3e5c96a7b71560fd94e047219437869b4e45ffc93b443cf38ffc73",
+   "shape": [
+    144
+   ]
+  },
+  "list_index": {
+   "dtype": "|i1",
+   "sha256": "2513495adb07f82781e372550cad2f371bb8a7cf7b3ca176aa70fd366486df68",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "mass_mult": {
+   "dtype": "<f4",
+   "sha256": "4c3946adf6dcd2da8682cf81f70a1ca7c67691b62180f87ebe0f4288bba20a03",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "01e752cc288565cee94b055cfbd06dc18fb34e7d9a02320de10ee242f09d095a",
+   "shape": [
+    144,
+    301,
+    17
+   ]
+  },
+  "offset": {
+   "dtype": "<i2",
+   "sha256": "43b691101067f4948e7d85eac6cd7f7d477d8acf35a057979ae553627287a6d8",
+   "shape": [
+    144
+   ]
+  },
+  "parent": {
+   "dtype": "<U14",
+   "sha256": "d952af98f46e6a75d3537f90de0c376400e74d2bb36bfbda1dedc54d924b442a",
+   "shape": [
+    144
+   ]
+  },
+  "plan_seed": {
+   "dtype": "<i8",
+   "sha256": "5855f916812298a56ba874fa863ba59deba81926c562b18d6ec1186b12b278ae",
+   "shape": [
+    144
+   ]
+  },
+  "pool": {
+   "dtype": "<U4",
+   "sha256": "8e76feaf7368a3115b103098fe5084a77d02891bfa153fd35525d632b42084d9",
+   "shape": [
+    144
+   ]
+  },
+  "reset_seed": {
+   "dtype": "<i8",
+   "sha256": "0ef03e2402f7e6957fe91efd22f5e98df802b55309c918553105fd0c10812ba4",
+   "shape": [
+    144
+   ]
+  },
+  "sequence": {
+   "dtype": "<U4",
+   "sha256": "cb169e5d29516f38fe87736b640b57efc56f5f63a5130732118ba664eb1289e1",
+   "shape": [
+    144
+   ]
+  },
+  "since_group": {
+   "dtype": "|i1",
+   "sha256": "90980668dca5cfa97320cdf9698f8f0503aa524b53152f027885ce316b3fc13f",
+   "shape": [
+    144,
+    5
+   ]
+  },
+  "since_steps": {
+   "dtype": "<i2",
+   "sha256": "89134acb2066e7d001e1a91fdcc5d54466640dc33497cea887a78054f4967db2",
+   "shape": [
+    144,
+    5
+   ]
+  },
+  "task_id": {
+   "dtype": "<i2",
+   "sha256": "137f9640419272ecdb0e1e9a265cee3dd3d961dc9fe0891d41f3f05a775b4298",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "task_list": {
+   "dtype": "<i2",
+   "sha256": "677d75856b3993f3aa15b5fa55fa12e58c06170e017cd390bac03e800fd21b24",
+   "shape": [
+    144,
+    16
+   ]
+  }
+ },
+ "data/escphc_beyond/escphc_testB.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "0eb46436990b21957fb36747a27bb734098b61b5ddbc3b0e44e8b1cc8759dbca",
+   "shape": [
+    144,
+    300,
+    6
+   ]
+  },
+  "chg_eff": {
+   "dtype": "|b1",
+   "sha256": "6c9e522dfb7e7b9a0bbb33c32b83a1bf44847e13fabcd08b5e6f5ab25b7ea8f0",
+   "shape": [
+    144,
+    3
+   ]
+  },
+  "chg_k": {
+   "dtype": "<i2",
+   "sha256": "2a92e42eac9e5fecb2d90d25d954ee48fe3f5f9f9a999a8c29ec4f5158eaec21",
+   "shape": [
+    144,
+    5
+   ]
+  },
+  "chg_state": {
+   "dtype": "<i2",
+   "sha256": "024c77f42ef79788c02f29ce213611e0b82e569a564732c4214f4f382c1191ed",
+   "shape": [
+    144,
+    3
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f",
+   "shape": [
+    144
+   ]
+  },
+  "damp_mult": {
+   "dtype": "<f4",
+   "sha256": "421741b42abad8638aeb306176ab31db9f3ca10e8537196a555535a2230b5104",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "eval_starts": {
+   "dtype": "<i2",
+   "sha256": "a0f1c8271fdf0619f108066e8c31ad24a5c2cde2b09b92ed542dcd249ecf6a62",
+   "shape": [
+    5
+   ]
+  },
+  "grav_mult": {
+   "dtype": "<f4",
+   "sha256": "0d9b17c6ca48aaf8ef0d2ee30b24bd6c1f688cf9e5fe621d4e47ca9269925a0e",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "grav_z": {
+   "dtype": "<f4",
+   "sha256": "7829e1bae179b2393300d7296c690b7b5ec96a178934fbe3c0ec1e3c39b58e64",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "kind": {
+   "dtype": "<U10",
+   "sha256": "2c1272fa6c3e5c96a7b71560fd94e047219437869b4e45ffc93b443cf38ffc73",
+   "shape": [
+    144
+   ]
+  },
+  "list_index": {
+   "dtype": "|i1",
+   "sha256": "8b012ad2695fe59e73dd72a9746235ff2a253cfeabeac899b46dcc537cbab1c7",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "mass_mult": {
+   "dtype": "<f4",
+   "sha256": "6d8814ae81faafa937f7c8157dbbfa06638bd3fe7a6ab7b0879d8210a8b89454",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "6b5dfa6625acb8c0e77b8fdbeb67672ce59f48545d9bf4bc1f50e0a895af0c76",
+   "shape": [
+    144,
+    301,
+    17
+   ]
+  },
+  "offset": {
+   "dtype": "<i2",
+   "sha256": "6269f09c0261e9aa088d14bcfa6241ab314087269b5a59b32811334e5755e789",
+   "shape": [
+    144
+   ]
+  },
+  "parent": {
+   "dtype": "<U15",
+   "sha256": "deda54221b8d0b7dffb630359cfe33a22e3943e468078cf916a563afefe106b9",
+   "shape": [
+    144
+   ]
+  },
+  "plan_seed": {
+   "dtype": "<i8",
+   "sha256": "dfa90a4fb2119322e300ab63712bbf8f1c4a01eccaee89ec9d103ad56c0d6a1f",
+   "shape": [
+    144
+   ]
+  },
+  "pool": {
+   "dtype": "<U4",
+   "sha256": "8e76feaf7368a3115b103098fe5084a77d02891bfa153fd35525d632b42084d9",
+   "shape": [
+    144
+   ]
+  },
+  "reset_seed": {
+   "dtype": "<i8",
+   "sha256": "c30039c1a085a2def0017c59dc0a613b540aab3692f16910565269fd4e3ed05c",
+   "shape": [
+    144
+   ]
+  },
+  "sequence": {
+   "dtype": "<U4",
+   "sha256": "cb169e5d29516f38fe87736b640b57efc56f5f63a5130732118ba664eb1289e1",
+   "shape": [
+    144
+   ]
+  },
+  "since_group": {
+   "dtype": "|i1",
+   "sha256": "f9b2d965c5941720c607fa93e31aaf89a3fd2cb668af5439527c6aa054bac098",
+   "shape": [
+    144,
+    5
+   ]
+  },
+  "since_steps": {
+   "dtype": "<i2",
+   "sha256": "82845561c51efcf4d5bddd1bc3c32ae3143e6ff214a1990f6377b44762b3700c",
+   "shape": [
+    144,
+    5
+   ]
+  },
+  "task_id": {
+   "dtype": "<i2",
+   "sha256": "ade2b9d576c1a227bb1f8f6f1eff0a8d4b9341463102f5993295e4cabb96974d",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "task_list": {
+   "dtype": "<i2",
+   "sha256": "36d9c3bce852b047fc34b11710d079711dc0964511ac91b8be36b71bbfe5e375",
+   "shape": [
+    144,
+    16
+   ]
+  }
+ },
+ "data/hopper/hopper_test.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "64d933a321fb48d3780f92836056a1a26dd2bce7aa7897115afe08a72bdcf323",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "75da8f3d5c85c7bb377cc69fd69046492446bc084a9cbb0684b5e4825d29caa7",
+   "shape": [
+    144
+   ]
+  },
+  "friction": {
+   "dtype": "<f4",
+   "sha256": "3307e21d5814e35a7a8194e0afb49449c194ec1d022113c1eff1d44dceb85f91",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "friction_eff": {
+   "dtype": "<f4",
+   "sha256": "6a058993ee034d17dd055a285365924d14965330b79b98510f24a201a0dfeac1",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain": {
+   "dtype": "<f4",
+   "sha256": "06255d6bc1475013faf9e5675fff4be3288c7d06a85c4384bd225bf77d0ef180",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain_eff": {
+   "dtype": "<f4",
+   "sha256": "4a694e15909e0a938e222374baa734dbd30daff02309721e6f9f0e45903bbb52",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "impulse": {
+   "dtype": "<f4",
+   "sha256": "85346373e508b905bb0ff87e62e19cb6ea7c8621187e82677b47274f53cebdd0",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "13c49900c1910a17aeeed1c4bca60d0caf6192f3ae713e7f47ee70f76acddd99",
+   "shape": [
+    144,
+    301,
+    11
+   ]
+  },
+  "parent": {
+   "dtype": "<U16",
+   "sha256": "2fc37d43f0c17cbf3afdc5747a70275082ac02850679a12b7cc2558d630b7d91",
+   "shape": [
+    144
+   ]
+  },
+  "payload": {
+   "dtype": "<f4",
+   "sha256": "625f8a9e01bc9f4967c650a029e14cd3ad30d57fa33c0014fb2c165a492a5b35",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "plan_attempt": {
+   "dtype": "<i2",
+   "sha256": "c4e99ec5b582d42b40602df1278440364de980e7f517d1a811f07b2798905d22",
+   "shape": [
+    144
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "240127d96d1ca96772fd464f64badf64085e3d91c410d7ef8bfb48f2ba4c1ded",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "sequence": {
+   "dtype": "<U13",
+   "sha256": "02f06c3a2a505cad06b99b5ed7c2efc6b08ec8da563464ab3893b07811252cf5",
+   "shape": [
+    144
+   ]
+  }
+ },
+ "data/hopper/hopper_testB.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "ebad766b20c73cf8f3b2e1a93e973932cef413bed7f378405657a4e1b6246490",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "75da8f3d5c85c7bb377cc69fd69046492446bc084a9cbb0684b5e4825d29caa7",
+   "shape": [
+    144
+   ]
+  },
+  "friction": {
+   "dtype": "<f4",
+   "sha256": "12b9fa3c1dd66bc10b343d687e6ba7f4e50582f7094667e920de8322da93ca9a",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "friction_eff": {
+   "dtype": "<f4",
+   "sha256": "3d97b0eb5ff1d12d59b0a67a15710e125c90d1783fe850544393c0e580b2e3d6",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain": {
+   "dtype": "<f4",
+   "sha256": "16d75c031a3ce9aa861bb9f6436dcbb125096146fd6f0d104cf058dcd1f8faff",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain_eff": {
+   "dtype": "<f4",
+   "sha256": "7a4ffff47f733793fbb90d5e7b2735bff8960bd72f5383a52611cbbe7a0bae8f",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "impulse": {
+   "dtype": "<f4",
+   "sha256": "ae9ab18d1bc4eaaf5065a8fc3c6226dc326d886a976372d9d323d4adbefd537f",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "bcec1fd71cee8d1f58200cf80884fb0aacceecf08bfcd06ef0672b9a62682f8e",
+   "shape": [
+    144,
+    301,
+    11
+   ]
+  },
+  "parent": {
+   "dtype": "<U16",
+   "sha256": "2fc37d43f0c17cbf3afdc5747a70275082ac02850679a12b7cc2558d630b7d91",
+   "shape": [
+    144
+   ]
+  },
+  "payload": {
+   "dtype": "<f4",
+   "sha256": "ce986ac271f63bd5087c6324662b19863de1ef583723bcfec3020e355d7e25d7",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "plan_attempt": {
+   "dtype": "<i2",
+   "sha256": "c4e99ec5b582d42b40602df1278440364de980e7f517d1a811f07b2798905d22",
+   "shape": [
+    144
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "240127d96d1ca96772fd464f64badf64085e3d91c410d7ef8bfb48f2ba4c1ded",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "sequence": {
+   "dtype": "<U13",
+   "sha256": "02f06c3a2a505cad06b99b5ed7c2efc6b08ec8da563464ab3893b07811252cf5",
+   "shape": [
+    144
+   ]
+  }
+ },
+ "data/hopper/hopper_train.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "f166b59c88943443de006abde31442aa1e9447f414cf4b44e939b70ea4d8fcec",
+   "shape": [
+    288,
+    300,
+    3
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "78ae1fe4bc1ea1b7522d9e6b2124ea732ba448059f2bac975d2b20e8c1608185",
+   "shape": [
+    288
+   ]
+  },
+  "friction": {
+   "dtype": "<f4",
+   "sha256": "05ccfa87623b9f2109580a3b5a5a627507872efb14c354f5c9e47a8f487f6fed",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "friction_eff": {
+   "dtype": "<f4",
+   "sha256": "7525b0466a4423a455d00deb04f8e051868ad7afb6731dbc1cb089be3915a897",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "gain": {
+   "dtype": "<f4",
+   "sha256": "c008f70e07cd20caa5cde02d80a626f9c30b58731575d6974de7edca703844de",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "gain_eff": {
+   "dtype": "<f4",
+   "sha256": "c321ba5228d797f5925eda68fe3d9952a3b7643f5c0efe496671cc2586f75359",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "impulse": {
+   "dtype": "<f4",
+   "sha256": "b303ffd1a0fc74af25788d6ef4301031f9d39952462c07b8e0cbf9c65ead4c73",
+   "shape": [
+    288,
+    300,
+    3
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "f6ea687731f9bc2e1c729ccbd4834ae8114098a1be395a09d277a91fd107740e",
+   "shape": [
+    288,
+    301,
+    11
+   ]
+  },
+  "parent": {
+   "dtype": "<U17",
+   "sha256": "728c5cc60e71a98f7e14d3bd7063cd45ed2ff6ca681001999df30f072282e680",
+   "shape": [
+    288
+   ]
+  },
+  "payload": {
+   "dtype": "<f4",
+   "sha256": "63e5c9593fb0b4933a507629e27974fddbac8d5ccc05625c7d8d206b0eb6ee1f",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "plan_attempt": {
+   "dtype": "<i2",
+   "sha256": "1a0295f4bf5986c5f74eca9153a6a4cb10b073a01a76ba4a457fd862c78966a4",
+   "shape": [
+    288
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "6b1a6f928f3b4f9e79401004e62c85cc7b9e0234c58d3712d6bbbdb17cc426c2",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "sequence": {
+   "dtype": "<U13",
+   "sha256": "2d79e831bd1f77896c329912b3068daaa22141b856d2ae2f3d32e1ec3e03e04c",
+   "shape": [
+    288
+   ]
+  }
+ },
+ "data/hopper/hopper_val.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "ced9fb17f16b401592dd317df938274cce30312f9ca97600db1fef34d00e9028",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "75da8f3d5c85c7bb377cc69fd69046492446bc084a9cbb0684b5e4825d29caa7",
+   "shape": [
+    144
+   ]
+  },
+  "friction": {
+   "dtype": "<f4",
+   "sha256": "1e3469a8160302fa904d7262aea5421b8473afd0419a69b34c76a984299d0271",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "friction_eff": {
+   "dtype": "<f4",
+   "sha256": "b9cdce82802cc27c1260e86c1ef919428637d3c9e4456b3c8cfc95e3a11f85dd",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain": {
+   "dtype": "<f4",
+   "sha256": "af6f3575c73199a16cd2d26d5741044fb2f6859e3f340fb939b69b916360ec44",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain_eff": {
+   "dtype": "<f4",
+   "sha256": "1c881e09fceb4831334bc371f45b1f0441d5a3992c5fde7d1ee94d7f39563023",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "impulse": {
+   "dtype": "<f4",
+   "sha256": "3a4a8c1ef9b03c0615d3280568d4121bdabcbda462e0743616d9e3d638e03ca2",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "904e67eb2eaa555581b485ba89f55fd23dd248dcb272f78100819ff3da798952",
+   "shape": [
+    144,
+    301,
+    11
+   ]
+  },
+  "parent": {
+   "dtype": "<U15",
+   "sha256": "5adae97b3d723bf7f7d614da78e3c26e61c8e939fcddee0f19e475652e213015",
+   "shape": [
+    144
+   ]
+  },
+  "payload": {
+   "dtype": "<f4",
+   "sha256": "6ecf8c2e81007b4249d0c8135299b38342b2a939a64ee9cf52e1da4acc5115ef",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "plan_attempt": {
+   "dtype": "<i2",
+   "sha256": "3b6e38ed11d8f153d455d804ff0e693f4a626b0e12002894f28f98aa93ff2c8f",
+   "shape": [
+    144
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "240127d96d1ca96772fd464f64badf64085e3d91c410d7ef8bfb48f2ba4c1ded",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "sequence": {
+   "dtype": "<U13",
+   "sha256": "02f06c3a2a505cad06b99b5ed7c2efc6b08ec8da563464ab3893b07811252cf5",
+   "shape": [
+    144
+   ]
+  }
+ },
+ "data/jshc/jshc_test.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "58c5f1e5375d86875ad26e47131030a7bff2aa52137292b1dd7a9ada2633ffec",
+   "shape": [
+    144,
+    300,
+    6
+   ]
+  },
+  "changed": {
+   "dtype": "|i1",
+   "sha256": "d2d7186472e17e3f3deb8f66b4e1819b0373c8a25055ad5fb38b05bee54d12a2",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "75da8f3d5c85c7bb377cc69fd69046492446bc084a9cbb0684b5e4825d29caa7",
+   "shape": [
+    144
+   ]
+  },
+  "fail_joint": {
+   "dtype": "|i1",
+   "sha256": "eaadb4b5b620e44166ee4b33ecd6bc58f8359755dd027443f3c293f6847b6aa1",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "652c1be0ae446748d035352a0f28df7d760315697932dec7f21d372086e19484",
+   "shape": [
+    144,
+    301,
+    17
+   ]
+  },
+  "parent": {
+   "dtype": "<U14",
+   "sha256": "f973d69594893cfdc9c1e5961bbc1e748e78277cc3068a183eacf4b730ab6c34",
+   "shape": [
+    144
+   ]
+  },
+  "phase": {
+   "dtype": "<i2",
+   "sha256": "eb35393a7318c67401a964b6132e40fea14819a0f241fc5a57678975e389dcb0",
+   "shape": [
+    144
+   ]
+  },
+  "sequence": {
+   "dtype": "<U2",
+   "sha256": "6a027aa31a97f93b2705d577826f7899b3a4a65f961f15bfa13e73dd6950d16a",
+   "shape": [
+    144
+   ]
+  }
+ },
+ "data/jshc/jshc_testB.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "fb975f6c132d6973120c105c4c3560f62233f7f1f5edeca49f31456ffbbdea3c",
+   "shape": [
+    144,
+    300,
+    6
+   ]
+  },
+  "changed": {
+   "dtype": "|i1",
+   "sha256": "4c9c1cc75ee7525599005d9eddffccb6e751aedc05c22993aeea4c3778b31906",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "75da8f3d5c85c7bb377cc69fd69046492446bc084a9cbb0684b5e4825d29caa7",
+   "shape": [
+    144
+   ]
+  },
+  "fail_joint": {
+   "dtype": "|i1",
+   "sha256": "ff65a9743b013c9826b82b49ae28c08f1f453a5c14135cd39c71293081aa2ded",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "04dc0fd8c8c3b1c5f0cb5ada5f05925d432fd5f33f2935366aa322883a850b0b",
+   "shape": [
+    144,
+    301,
+    17
+   ]
+  },
+  "parent": {
+   "dtype": "<U15",
+   "sha256": "96c62a882e41c961e895eb6e40318346a428bd69d4cd07cda49899c4f7946e45",
+   "shape": [
+    144
+   ]
+  },
+  "phase": {
+   "dtype": "<i2",
+   "sha256": "6ca360555fb169a1aad0f70173ec1d99086ea06bf21846f2d6dd92f8815e747b",
+   "shape": [
+    144
+   ]
+  },
+  "sequence": {
+   "dtype": "<U2",
+   "sha256": "6a027aa31a97f93b2705d577826f7899b3a4a65f961f15bfa13e73dd6950d16a",
+   "shape": [
+    144
+   ]
+  }
+ },
+ "data/jshc/jshc_train.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "7d6ff1d631c5451b284fe2ed831b536407d843c3ee5d751cde58a791c131c3c5",
+   "shape": [
+    288,
+    300,
+    6
+   ]
+  },
+  "changed": {
+   "dtype": "|i1",
+   "sha256": "ab00c95761dbeebc41196f6105963f2b83b4224754d0b367c21ab760465df56e",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "78ae1fe4bc1ea1b7522d9e6b2124ea732ba448059f2bac975d2b20e8c1608185",
+   "shape": [
+    288
+   ]
+  },
+  "fail_joint": {
+   "dtype": "|i1",
+   "sha256": "657f4aebf34d030800159fecef35a1b1d4bd6fd3794e2343ae1c3afd0c3a6d31",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "5363e3f8c6133c85682ad2f6fbd99af01ebd3418a2dbb1eb830bc87197667d94",
+   "shape": [
+    288,
+    301,
+    17
+   ]
+  },
+  "parent": {
+   "dtype": "<U15",
+   "sha256": "6c6615f01a01ac86501415ccfa39a5982c05a11b0d50a3416cf10426d71a3a99",
+   "shape": [
+    288
+   ]
+  },
+  "phase": {
+   "dtype": "<i2",
+   "sha256": "48ff99b6c83317789ad3b0746260dcc648a3fa49e10e5c63498167a1c9dec6d9",
+   "shape": [
+    288
+   ]
+  },
+  "sequence": {
+   "dtype": "<U2",
+   "sha256": "8eb73aee2de469f8133dd997a5830ecad41b57445f86686a2a952939fd72b79a",
+   "shape": [
+    288
+   ]
+  }
+ },
+ "data/jshc/jshc_val.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "1f3b2f696fb2ef4b4c119b484c0b6d89207d04876923336ae456f0925d5e658e",
+   "shape": [
+    144,
+    300,
+    6
+   ]
+  },
+  "changed": {
+   "dtype": "|i1",
+   "sha256": "0792790c27266a865c59cb2755db937ae4173f9181082bb6ebcc64a6edff58ea",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "75da8f3d5c85c7bb377cc69fd69046492446bc084a9cbb0684b5e4825d29caa7",
+   "shape": [
+    144
+   ]
+  },
+  "fail_joint": {
+   "dtype": "|i1",
+   "sha256": "3e1b218a1bf6560a99d5ac6d00a13aa864bd3a133d9414ddf03bd473da545774",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "30e15395ff781dc780ff88a679ec89a509b4a1d82bfa27efd621c2f4647fe439",
+   "shape": [
+    144,
+    301,
+    17
+   ]
+  },
+  "parent": {
+   "dtype": "<U13",
+   "sha256": "3a4fc82853ded84dcc539a5454a779be2e9f40c108ae796f1f4b0c9d7ab56363",
+   "shape": [
+    144
+   ]
+  },
+  "phase": {
+   "dtype": "<i2",
+   "sha256": "1dd79ef8233d1738b80b91be12eff4d3f792ff2b517f9202f700be914c7536e1",
+   "shape": [
+    144
+   ]
+  },
+  "sequence": {
+   "dtype": "<U2",
+   "sha256": "6a027aa31a97f93b2705d577826f7899b3a4a65f961f15bfa13e73dd6950d16a",
+   "shape": [
+    144
+   ]
+  }
+ },
+ "data/panda/panda_test.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "c7c7fb2568e98a6c5269ff15f1f0f6bccc546dc308c4d539afa6e2aabba4ff45",
+   "shape": [
+    144,
+    300,
+    7
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "75da8f3d5c85c7bb377cc69fd69046492446bc084a9cbb0684b5e4825d29caa7",
+   "shape": [
+    144
+   ]
+  },
+  "friction": {
+   "dtype": "<f4",
+   "sha256": "b9b19538fe0ea82cd4baea3da6e6cfd236a8661991dc2e4652ca47ad55926de6",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "friction_eff": {
+   "dtype": "<f4",
+   "sha256": "08ad179769ef8e7fd533d0ab47067c8b2f727def3d5e4af206f43ef793a68924",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain": {
+   "dtype": "<f4",
+   "sha256": "7045ef6bafeac740fc4f561e1cbea8f608e3a1890fddf74b6c82a00fe2047100",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain_eff": {
+   "dtype": "<f4",
+   "sha256": "1b7b696ddf7cf892b38752fabf494a6a64230230cab5946e839354626173b2a6",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "impulse": {
+   "dtype": "<f4",
+   "sha256": "f9050d513be73fe6732347236f24a073107b7d6af7c339212d08518e5a1af51d",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "111d140bd0f1629d177b229800900fa3703c73d78ce2075c12e2990de4370dc9",
+   "shape": [
+    144,
+    301,
+    14
+   ]
+  },
+  "parent": {
+   "dtype": "<U15",
+   "sha256": "0376943684cee01bc5d09d2232c3645b25b9080c1aa361ecfd3915c3fb88984d",
+   "shape": [
+    144
+   ]
+  },
+  "payload": {
+   "dtype": "<f4",
+   "sha256": "6c08eb67489c39965ddf9d0a18ca544d7839d3e8990f94b2b27c370e0a881a37",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "plan_attempt": {
+   "dtype": "<i2",
+   "sha256": "2d5565fb483d8ea4525a7a9229677d1038ad34b6e22c8d5152e1d7f7b9817597",
+   "shape": [
+    144
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "240127d96d1ca96772fd464f64badf64085e3d91c410d7ef8bfb48f2ba4c1ded",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "sequence": {
+   "dtype": "<U13",
+   "sha256": "02f06c3a2a505cad06b99b5ed7c2efc6b08ec8da563464ab3893b07811252cf5",
+   "shape": [
+    144
+   ]
+  },
+  "wrench": {
+   "dtype": "<f4",
+   "sha256": "554dc6955fdfa6da6d67f0cd88b251fea84f3082105fbb0f34665b75ab360a76",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  }
+ },
+ "data/panda/panda_testB.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "64398e4cab8ee34b90292c4b315f94af0346fb4a4a7e5f2c907fe50b8d79c15a",
+   "shape": [
+    144,
+    300,
+    7
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "75da8f3d5c85c7bb377cc69fd69046492446bc084a9cbb0684b5e4825d29caa7",
+   "shape": [
+    144
+   ]
+  },
+  "friction": {
+   "dtype": "<f4",
+   "sha256": "de9a6d66badc96c5db1fb47c1c4d542879428a81fd121548d048d26c1aa2eb6b",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "friction_eff": {
+   "dtype": "<f4",
+   "sha256": "54a6d3ebefe66b72c0d31fe2e3f7f651ab8c2505376e6e7b4e2590b753c45594",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain": {
+   "dtype": "<f4",
+   "sha256": "a0702168e64e0ddd106fcca9f5eaadd648c7b737d6efc9af182ad45f40e2baea",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain_eff": {
+   "dtype": "<f4",
+   "sha256": "fa6768c7bb7cad50fe59aa5fb26937e2a8ef2a2af97a083e0ef0d9f0030239eb",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "impulse": {
+   "dtype": "<f4",
+   "sha256": "1187b1cbdde0e9aaf3499d0a7278e7f6b608e808feadfa5acd90a7c9e470f7f0",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "b954a355a7e65acc0a47f15eebd0495126b43437bfef50c317900bab97642e3f",
+   "shape": [
+    144,
+    301,
+    14
+   ]
+  },
+  "parent": {
+   "dtype": "<U15",
+   "sha256": "0376943684cee01bc5d09d2232c3645b25b9080c1aa361ecfd3915c3fb88984d",
+   "shape": [
+    144
+   ]
+  },
+  "payload": {
+   "dtype": "<f4",
+   "sha256": "54fdad309dfaa523737350342039442c027f3b82ae3083c13fb119ba0f7376f1",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "plan_attempt": {
+   "dtype": "<i2",
+   "sha256": "a4e1752ea43e705875965d079e737c965579c12cbf43762d45eb8f9b0d1ba45b",
+   "shape": [
+    144
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "240127d96d1ca96772fd464f64badf64085e3d91c410d7ef8bfb48f2ba4c1ded",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "sequence": {
+   "dtype": "<U13",
+   "sha256": "02f06c3a2a505cad06b99b5ed7c2efc6b08ec8da563464ab3893b07811252cf5",
+   "shape": [
+    144
+   ]
+  },
+  "wrench": {
+   "dtype": "<f4",
+   "sha256": "5648cc44f51853877cb64ad19deaedf7133d999fa4199a1769c5cd14f858d623",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  }
+ },
+ "data/panda/panda_train.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "5815f58cd494e5e220f30a362d29f1c57f51aa8fa682d0d178dfbd261ab02f8c",
+   "shape": [
+    288,
+    300,
+    7
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "78ae1fe4bc1ea1b7522d9e6b2124ea732ba448059f2bac975d2b20e8c1608185",
+   "shape": [
+    288
+   ]
+  },
+  "friction": {
+   "dtype": "<f4",
+   "sha256": "76c2e76dd85c4cee9b48de91592316243703d6354d3185565abb918ce396ae96",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "friction_eff": {
+   "dtype": "<f4",
+   "sha256": "9f3681381f422784c16babc9651e3f881ec9bfcd2722bbdbfd0a285d3356e05e",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "gain": {
+   "dtype": "<f4",
+   "sha256": "473560012a97aee7fdf7e3a65dc6fcc8a882357296411734d970e4c545ad06d9",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "gain_eff": {
+   "dtype": "<f4",
+   "sha256": "22041777956d831351d46b63e29d603c48279992e61364d515ff1cb53e5fee0f",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "impulse": {
+   "dtype": "<f4",
+   "sha256": "96da4fe947a1f30a5437595746c562883fb5921e2b2e511f8766dd561a7c9ee6",
+   "shape": [
+    288,
+    300,
+    3
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "5e180e8173033155ec0297d3aa873fd3e5c48023f788b7b0410a0c30e2569da1",
+   "shape": [
+    288,
+    301,
+    14
+   ]
+  },
+  "parent": {
+   "dtype": "<U16",
+   "sha256": "0f13ba6a53a11efc42acff14a3df83718804982e5ff67bf70ef9f6b55bbddd69",
+   "shape": [
+    288
+   ]
+  },
+  "payload": {
+   "dtype": "<f4",
+   "sha256": "ae5e72eb22505226df7835eec9a2d93e3243f6399bced0be4ac7121fbbe76d3b",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "plan_attempt": {
+   "dtype": "<i2",
+   "sha256": "d221f34d8aedad09c261157d7ed951e1607bd4bbcc7a2f34bc6162633c8c0e45",
+   "shape": [
+    288
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "6b1a6f928f3b4f9e79401004e62c85cc7b9e0234c58d3712d6bbbdb17cc426c2",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "sequence": {
+   "dtype": "<U13",
+   "sha256": "2d79e831bd1f77896c329912b3068daaa22141b856d2ae2f3d32e1ec3e03e04c",
+   "shape": [
+    288
+   ]
+  },
+  "wrench": {
+   "dtype": "<f4",
+   "sha256": "1b56c0a6d7696077f51516cb6a141be615bedd0ee1da61e3fbfd933148b04de8",
+   "shape": [
+    288,
+    300,
+    3
+   ]
+  }
+ },
+ "data/panda/panda_val.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "161ae121606d38c90fef98829fdda4b96adb11a40c184a9c7bc8e759320ce6ca",
+   "shape": [
+    144,
+    300,
+    7
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "75da8f3d5c85c7bb377cc69fd69046492446bc084a9cbb0684b5e4825d29caa7",
+   "shape": [
+    144
+   ]
+  },
+  "friction": {
+   "dtype": "<f4",
+   "sha256": "d00404da525aa8f4a0aa687aed1892b0117c3267de838ba4334eb7359028afbf",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "friction_eff": {
+   "dtype": "<f4",
+   "sha256": "43a681724f3ed851931201ee167a7533e1e1006b6963e1a866d907775e0a096d",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain": {
+   "dtype": "<f4",
+   "sha256": "1a70c6cdb0fd317f7a9b1c37f9eb954face4ca343aca2125357403ee57e06bf7",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain_eff": {
+   "dtype": "<f4",
+   "sha256": "ddd0016b108568415a4eb3bdcd54918a38551fa5cf1e8d661684f64d8a2c4864",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "impulse": {
+   "dtype": "<f4",
+   "sha256": "fb7b6f15fee0c2738dc93a614e348252c0d2acf6d79ee07f8ffe2455345b5708",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "5c6026d53a82e5e84892f82edc69b15fb13e5f63c4180ef842546d259a6fbdb8",
+   "shape": [
+    144,
+    301,
+    14
+   ]
+  },
+  "parent": {
+   "dtype": "<U14",
+   "sha256": "6f694043bb8b499aac2457a58350cfc061ab2cf2257821e13fdda136c43b6bad",
+   "shape": [
+    144
+   ]
+  },
+  "payload": {
+   "dtype": "<f4",
+   "sha256": "75c5c7c2cc5c9d96fb4829d10f9c3d17044749f92401a92e4ff7fcd7a244181e",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "plan_attempt": {
+   "dtype": "<i2",
+   "sha256": "2d5565fb483d8ea4525a7a9229677d1038ad34b6e22c8d5152e1d7f7b9817597",
+   "shape": [
+    144
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "240127d96d1ca96772fd464f64badf64085e3d91c410d7ef8bfb48f2ba4c1ded",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "sequence": {
+   "dtype": "<U13",
+   "sha256": "02f06c3a2a505cad06b99b5ed7c2efc6b08ec8da563464ab3893b07811252cf5",
+   "shape": [
+    144
+   ]
+  },
+  "wrench": {
+   "dtype": "<f4",
+   "sha256": "4f3b6149aa6a607065bbe90f86dad1f139235b2bf41ea4bffb5d0dc5c1c5c3e7",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  }
+ },
+ "data/ur5e/ur5e_test.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "c2441a0d6163b059bac6eab3528fdfce7cf75c3632bd9ce3cccb75dd23094d2d",
+   "shape": [
+    144,
+    300,
+    6
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "75da8f3d5c85c7bb377cc69fd69046492446bc084a9cbb0684b5e4825d29caa7",
+   "shape": [
+    144
+   ]
+  },
+  "friction": {
+   "dtype": "<f4",
+   "sha256": "f01b1358f24237150e92ac99acdb1d5708b0673046adbbdcf08dadabcb124dbd",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "friction_eff": {
+   "dtype": "<f4",
+   "sha256": "32e8934c50cd01f08993a2fa5686b82ba9f8f9b963845943537865c08e37b8a0",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain": {
+   "dtype": "<f4",
+   "sha256": "3c0a58086ffcf9be6008544b127ab21a4900e426aa276afd628e8cf913492cfb",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain_eff": {
+   "dtype": "<f4",
+   "sha256": "6d37c05f73fdbad9a3fc808c39ca97e193edd6c5af5eb5280305f0001643a156",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "impulse": {
+   "dtype": "<f4",
+   "sha256": "0e8cbcd68eed605ac921b59d907fdb97cfdce64ebdc6894ce720ba4d1812b448",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "6b652cdaa58e1cbca38e99a4408261014e344e32d3ea92b9c77888902adc97af",
+   "shape": [
+    144,
+    301,
+    12
+   ]
+  },
+  "parent": {
+   "dtype": "<U14",
+   "sha256": "bc4ed770db3f00c304ec05697be13cbe36a2ef62c1880392835d900b2cb87faa",
+   "shape": [
+    144
+   ]
+  },
+  "payload": {
+   "dtype": "<f4",
+   "sha256": "d5a76ea2ee1d3d1cdcf3778533229c066cf30b6bd8e3a6be0cad43d141e6da0f",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "plan_attempt": {
+   "dtype": "<i2",
+   "sha256": "2d5565fb483d8ea4525a7a9229677d1038ad34b6e22c8d5152e1d7f7b9817597",
+   "shape": [
+    144
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "240127d96d1ca96772fd464f64badf64085e3d91c410d7ef8bfb48f2ba4c1ded",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "sequence": {
+   "dtype": "<U13",
+   "sha256": "02f06c3a2a505cad06b99b5ed7c2efc6b08ec8da563464ab3893b07811252cf5",
+   "shape": [
+    144
+   ]
+  },
+  "wrench": {
+   "dtype": "<f4",
+   "sha256": "0fa6b813f41e0e2ca4964eb52510a5eb29254b4c9a75c699f0b664762c844ac5",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  }
+ },
+ "data/ur5e/ur5e_testB.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "1b80aa2bfbdba7994e90b402636af19c204bfaca23b6d8ad31c931e909a10ce2",
+   "shape": [
+    144,
+    300,
+    6
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "75da8f3d5c85c7bb377cc69fd69046492446bc084a9cbb0684b5e4825d29caa7",
+   "shape": [
+    144
+   ]
+  },
+  "friction": {
+   "dtype": "<f4",
+   "sha256": "a009df56bb48c37d5db6331c6e613bca3378eac7f6d740c208457a4ea44dca21",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "friction_eff": {
+   "dtype": "<f4",
+   "sha256": "edf751955627d44ad1e1ebf1f3337e5ad6595531f0c32bd37efac797b70ebf47",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain": {
+   "dtype": "<f4",
+   "sha256": "05119af244067ba274157d15abf4df51dd7a5a9388b871673363fe2b3384af5a",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain_eff": {
+   "dtype": "<f4",
+   "sha256": "77dcaef6b829bdf9622ae1fd78dc2520c7500a1bbdae7c5ace8ae17e7c706bd0",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "impulse": {
+   "dtype": "<f4",
+   "sha256": "8800e10a1620b79031bde14847dfb55363e87376508c9f761df9758ab58d0e0e",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "bd1e329296552361258981dccb479bd257349767f7b04b68e07fae2525dbcf67",
+   "shape": [
+    144,
+    301,
+    12
+   ]
+  },
+  "parent": {
+   "dtype": "<U14",
+   "sha256": "bc4ed770db3f00c304ec05697be13cbe36a2ef62c1880392835d900b2cb87faa",
+   "shape": [
+    144
+   ]
+  },
+  "payload": {
+   "dtype": "<f4",
+   "sha256": "517b69fd1cc44fcce23d8396d2570bca6e244f946f65e9610ddc18fd4fee4074",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "plan_attempt": {
+   "dtype": "<i2",
+   "sha256": "184e1eba6215fc96960d7a119f2f2ca562b6a48af8a144add168e3fcc2f2aed6",
+   "shape": [
+    144
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "240127d96d1ca96772fd464f64badf64085e3d91c410d7ef8bfb48f2ba4c1ded",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "sequence": {
+   "dtype": "<U13",
+   "sha256": "02f06c3a2a505cad06b99b5ed7c2efc6b08ec8da563464ab3893b07811252cf5",
+   "shape": [
+    144
+   ]
+  },
+  "wrench": {
+   "dtype": "<f4",
+   "sha256": "adf90cd16eb5a771674630f605e9ca08331c862fc9abebbff647e60a2adac658",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  }
+ },
+ "data/ur5e/ur5e_train.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "b0b6b72fbcc6466cb2b4b9a6cb111508b197f1ee64098028e87dd8355383abe2",
+   "shape": [
+    288,
+    300,
+    6
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "78ae1fe4bc1ea1b7522d9e6b2124ea732ba448059f2bac975d2b20e8c1608185",
+   "shape": [
+    288
+   ]
+  },
+  "friction": {
+   "dtype": "<f4",
+   "sha256": "02aea419e20899b496a4a6d292de3870bd4892848cd20526d2b35786feee5903",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "friction_eff": {
+   "dtype": "<f4",
+   "sha256": "961db534ae32fce27d33c0d4e5b7d20033daacd33ad4c46e523752457e4c55b3",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "gain": {
+   "dtype": "<f4",
+   "sha256": "9d7ce088a152deadc191eb39a15273bbd874f8facc773a5d13d33ea0be769245",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "gain_eff": {
+   "dtype": "<f4",
+   "sha256": "b47a5fee0bd1514411ac107f6608ca4c4b0f6744c6f0773a2ed6413940225559",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "impulse": {
+   "dtype": "<f4",
+   "sha256": "8a15c14a59b56cb36fee5c919a969607306d41689ecafe2e8a278274f0504dc6",
+   "shape": [
+    288,
+    300,
+    3
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "42470ea70af1618bcba2ded6ae8663ccc83ce7ec081ab4a68af24f89677494c5",
+   "shape": [
+    288,
+    301,
+    12
+   ]
+  },
+  "parent": {
+   "dtype": "<U15",
+   "sha256": "d8aee1a5e26583da9aeb3c43477327ed762d1592817679f00965b6e63a7961bd",
+   "shape": [
+    288
+   ]
+  },
+  "payload": {
+   "dtype": "<f4",
+   "sha256": "d7909c5203b0f17153253f185db1dff34ceda244bf54ca8b0082a1812ec8f7f1",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "plan_attempt": {
+   "dtype": "<i2",
+   "sha256": "df9641dd9d9c32c58ae52e959e8ba592476e53617f9d12e4c7c6e6348c2d941e",
+   "shape": [
+    288
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "6b1a6f928f3b4f9e79401004e62c85cc7b9e0234c58d3712d6bbbdb17cc426c2",
+   "shape": [
+    288,
+    300
+   ]
+  },
+  "sequence": {
+   "dtype": "<U13",
+   "sha256": "2d79e831bd1f77896c329912b3068daaa22141b856d2ae2f3d32e1ec3e03e04c",
+   "shape": [
+    288
+   ]
+  },
+  "wrench": {
+   "dtype": "<f4",
+   "sha256": "5ff36ae0f52999c22d830907baf1641d575dc0c813595a853a76420f1e151d45",
+   "shape": [
+    288,
+    300,
+    3
+   ]
+  }
+ },
+ "data/ur5e/ur5e_val.npz": {
+  "act": {
+   "dtype": "<f4",
+   "sha256": "9d4360b437bdf54115ba5dc3eb07bf100302ddd43ae9640f699c3c145f89536c",
+   "shape": [
+    144,
+    300,
+    6
+   ]
+  },
+  "cohort": {
+   "dtype": "|i1",
+   "sha256": "75da8f3d5c85c7bb377cc69fd69046492446bc084a9cbb0684b5e4825d29caa7",
+   "shape": [
+    144
+   ]
+  },
+  "friction": {
+   "dtype": "<f4",
+   "sha256": "826020fca2e888c6212a5663f9ddc9895ea75aac948711c17492bada72091cbe",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "friction_eff": {
+   "dtype": "<f4",
+   "sha256": "a68223874c9c935e5af380fb3ad19ade5da0fdcaea82a27f65165e8ddaa5ff84",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain": {
+   "dtype": "<f4",
+   "sha256": "4fc957f3eca618cdc661fd19d248a5d0f2eebb997063281524914c361793a746",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "gain_eff": {
+   "dtype": "<f4",
+   "sha256": "dc0d0f3e925cc0b5c8117d03959f66e40af89eb6f441b149450156bb04503f64",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "impulse": {
+   "dtype": "<f4",
+   "sha256": "f03b0748db69a2b5b9fd12c05380dea4104a1acb20d0f3933f767b28a87e2f06",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  },
+  "obs": {
+   "dtype": "<f4",
+   "sha256": "7372b1e6e4d29134ef37eec0938ff32be86199179fb144c0848f0c0816ea7435",
+   "shape": [
+    144,
+    301,
+    12
+   ]
+  },
+  "parent": {
+   "dtype": "<U13",
+   "sha256": "788eed65902cc1414a99ae501e0ebcfa6c3dd49c3c42da6a267996885c83111a",
+   "shape": [
+    144
+   ]
+  },
+  "payload": {
+   "dtype": "<f4",
+   "sha256": "831cc4bc83148cc849416c6015bfc89377ba3f29a065b281de68f91ff515d3c5",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "plan_attempt": {
+   "dtype": "<i2",
+   "sha256": "b67d38279229c886f09b129cca714241c771fce738745faa80bf94c09d38bcc0",
+   "shape": [
+    144
+   ]
+  },
+  "seg": {
+   "dtype": "|i1",
+   "sha256": "240127d96d1ca96772fd464f64badf64085e3d91c410d7ef8bfb48f2ba4c1ded",
+   "shape": [
+    144,
+    300
+   ]
+  },
+  "sequence": {
+   "dtype": "<U13",
+   "sha256": "02f06c3a2a505cad06b99b5ed7c2efc6b08ec8da563464ab3893b07811252cf5",
+   "shape": [
+    144
+   ]
+  },
+  "wrench": {
+   "dtype": "<f4",
+   "sha256": "7c98f7caf4264aeaad438fb945a1d100de89a4f49ca1515b461bffc44438533c",
+   "shape": [
+    144,
+    300,
+    3
+   ]
+  }
+ }
+}

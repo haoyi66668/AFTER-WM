@@ -1,0 +1,36 @@
+{
+ "budget_class": "baseline",
+ "cfg": {
+  "adam_betas": [
+   0.9,
+   0.999
+  ],
+  "adam_eps": 1e-08,
+  "adapt_m": 16,
+  "budget_class": "baseline",
+  "eval_chunk": 240,
+  "grad_clip": 1.0,
+  "hidden": 582,
+  "inner_lr": 0.1,
+  "lr": 0.003,
+  "model": "grbal",
+  "model_id": "grbal",
+  "n_hidden": 3,
+  "task_len": 32,
+  "task_offsets": [
+   0,
+   24,
+   48,
+   72
+  ]
+ },
+ "lr_mult": 3.0,
+ "module": "baselines.grbal",
+ "native_lr": 0.001,
+ "protocol": "p2",
+ "steps": 16000,
+ "val_every": 1000,
+ "variant": {
+  "inner_lr": 0.1
+ }
+}

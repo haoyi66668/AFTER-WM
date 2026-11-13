@@ -1,0 +1,281 @@
+{
+ "dataset": "ur5e",
+ "compared": "rebal",
+ "keys": [
+  1,
+  5,
+  10,
+  20,
+  40
+ ],
+ "vmin_cm": 0.0,
+ "vmax_cm": 9.0,
+ "colormap": "viridis",
+ "seed": 20260910,
+ "selected": {
+  "split": "test_b",
+  "query_id": "TEST_B:52:128",
+  "e": 52,
+  "t0": 128,
+  "d": 0.010771478991572186,
+  "multi_step": {
+   "afterwm": 0.015891252742080236,
+   "compared": 0.026662731733652422
+  },
+  "rank": 168,
+  "n_candidates": 336
+ },
+ "frames": {
+  "afterwm|k1": {
+   "mean_cm": 0.06115708,
+   "max_cm": 0.10055544,
+   "max_link": "wrist_2_link",
+   "label": "0.1 cm",
+   "link_cm": {
+    "shoulder_link": 0.00093848,
+    "upper_arm_link": 0.02361025,
+    "forearm_link": 0.06977757,
+    "wrist_1_link": 0.07275464,
+    "wrist_2_link": 0.10055544,
+    "wrist_3_link": 0.09930612
+   },
+   "crop_box_png": [
+    420,
+    282,
+    634,
+    437
+   ]
+  },
+  "afterwm|k5": {
+   "mean_cm": 0.41240767,
+   "max_cm": 0.67804904,
+   "max_link": "wrist_2_link",
+   "label": "0.4 cm",
+   "link_cm": {
+    "shoulder_link": 0.00397125,
+    "upper_arm_link": 0.15411801,
+    "forearm_link": 0.47282466,
+    "wrist_1_link": 0.49425097,
+    "wrist_2_link": 0.67804904,
+    "wrist_3_link": 0.67123211
+   },
+   "crop_box_png": [
+    824,
+    282,
+    1038,
+    437
+   ]
+  },
+  "afterwm|k10": {
+   "mean_cm": 0.80866607,
+   "max_cm": 1.34360766,
+   "max_link": "wrist_3_link",
+   "label": "0.8 cm",
+   "link_cm": {
+    "shoulder_link": 0.00780137,
+    "upper_arm_link": 0.27506931,
+    "forearm_link": 0.92434961,
+    "wrist_1_link": 0.96209255,
+    "wrist_2_link": 1.33907593,
+    "wrist_3_link": 1.34360766
+   },
+   "crop_box_png": [
+    1229,
+    282,
+    1443,
+    437
+   ]
+  },
+  "afterwm|k20": {
+   "mean_cm": 1.43334429,
+   "max_cm": 2.39629763,
+   "max_link": "wrist_3_link",
+   "label": "1.4 cm",
+   "link_cm": {
+    "shoulder_link": 0.02348321,
+    "upper_arm_link": 0.49210992,
+    "forearm_link": 1.60708381,
+    "wrist_1_link": 1.69062661,
+    "wrist_2_link": 2.39046459,
+    "wrist_3_link": 2.39629763
+   },
+   "crop_box_png": [
+    1633,
+    282,
+    1847,
+    437
+   ]
+  },
+  "afterwm|k40": {
+   "mean_cm": 1.91983251,
+   "max_cm": 3.17415233,
+   "max_link": "wrist_3_link",
+   "label": "1.9 cm",
+   "link_cm": {
+    "shoulder_link": 0.01414372,
+    "upper_arm_link": 0.69775445,
+    "forearm_link": 2.18158497,
+    "wrist_1_link": 2.28092679,
+    "wrist_2_link": 3.17043282,
+    "wrist_3_link": 3.17415233
+   },
+   "crop_box_png": [
+    2038,
+    282,
+    2252,
+    437
+   ]
+  },
+  "compared|k1": {
+   "mean_cm": 0.05181466,
+   "max_cm": 0.07616318,
+   "max_link": "wrist_2_link",
+   "label": "0.1 cm",
+   "link_cm": {
+    "shoulder_link": 0.00061581,
+    "upper_arm_link": 0.02647345,
+    "forearm_link": 0.06572109,
+    "wrist_1_link": 0.06828722,
+    "wrist_2_link": 0.07616318,
+    "wrist_3_link": 0.07362721
+   },
+   "crop_box_png": [
+    420,
+    721,
+    634,
+    876
+   ]
+  },
+  "compared|k5": {
+   "mean_cm": 0.4228732,
+   "max_cm": 0.63632513,
+   "max_link": "wrist_2_link",
+   "label": "0.4 cm",
+   "link_cm": {
+    "shoulder_link": 0.00041888,
+    "upper_arm_link": 0.21358717,
+    "forearm_link": 0.52586486,
+    "wrist_1_link": 0.54662968,
+    "wrist_2_link": 0.63632513,
+    "wrist_3_link": 0.61441349
+   },
+   "crop_box_png": [
+    824,
+    721,
+    1038,
+    876
+   ]
+  },
+  "compared|k10": {
+   "mean_cm": 0.91068686,
+   "max_cm": 1.40953546,
+   "max_link": "wrist_2_link",
+   "label": "0.9 cm",
+   "link_cm": {
+    "shoulder_link": 0.01275884,
+    "upper_arm_link": 0.40918215,
+    "forearm_link": 1.11418256,
+    "wrist_1_link": 1.15213707,
+    "wrist_2_link": 1.40953546,
+    "wrist_3_link": 1.36632508
+   },
+   "crop_box_png": [
+    1229,
+    721,
+    1443,
+    876
+   ]
+  },
+  "compared|k20": {
+   "mean_cm": 1.89660624,
+   "max_cm": 2.94404688,
+   "max_link": "wrist_2_link",
+   "label": "1.9 cm",
+   "link_cm": {
+    "shoulder_link": 0.00368587,
+    "upper_arm_link": 0.9642693,
+    "forearm_link": 2.2976849,
+    "wrist_1_link": 2.35587144,
+    "wrist_2_link": 2.94404688,
+    "wrist_3_link": 2.81407909
+   },
+   "crop_box_png": [
+    1633,
+    721,
+    1847,
+    876
+   ]
+  },
+  "compared|k40": {
+   "mean_cm": 5.35622095,
+   "max_cm": 8.59912307,
+   "max_link": "wrist_2_link",
+   "label": "5.4 cm",
+   "link_cm": {
+    "shoulder_link": 0.00795202,
+    "upper_arm_link": 2.19838796,
+    "forearm_link": 6.29919959,
+    "wrist_1_link": 6.54451685,
+    "wrist_2_link": 8.59912307,
+    "wrist_3_link": 8.48814619
+   },
+   "crop_box_png": [
+    2038,
+    721,
+    2252,
+    876
+   ]
+  }
+ },
+ "per_joint": {
+  "obs": [
+   "q1",
+   "q2",
+   "q3",
+   "q4",
+   "q5",
+   "q6",
+   "dq1",
+   "dq2",
+   "dq3",
+   "dq4",
+   "dq5",
+   "dq6"
+  ],
+  "seeds": [
+   20260910,
+   20270913,
+   20280916,
+   20290919,
+   20300922
+  ],
+  "afterwm_step40": [
+   0.00762593435715173,
+   0.09171096053580251,
+   0.05900988819956256,
+   0.03188402059902007,
+   0.014658517309051624,
+   0.010130824474646995,
+   0.04538104273369124,
+   0.23579039014315675,
+   0.15519160954407413,
+   0.12313214760410252,
+   0.07286584421362177,
+   0.05577670733175786
+  ],
+  "compared_step40": [
+   0.006345275168022087,
+   0.21277554538884744,
+   0.14752882059909594,
+   0.062047238765418,
+   0.020208082232135112,
+   0.010042576941333241,
+   0.04767530587751377,
+   0.4501941364589932,
+   0.274780244867505,
+   0.1762609195174667,
+   0.09060354607040892,
+   0.05596475860450793
+  ]
+ }
+}

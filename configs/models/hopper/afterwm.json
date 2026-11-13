@@ -1,0 +1,49 @@
+{
+ "budget_class": "afterwm_eq",
+ "cfg": {
+  "active_target": 265793,
+  "base": "own",
+  "betas": [
+   0.9,
+   0.999
+  ],
+  "budget_class": "afterwm_eq",
+  "budget_target": 700000,
+  "budget_total": 699877,
+  "construct_device": "cpu",
+  "context": 64,
+  "cuda_graph": true,
+  "family": "afterwm",
+  "grad_clip": 1.0,
+  "horizons": [
+   1,
+   5,
+   10,
+   20,
+   40
+  ],
+  "lr": 0.001,
+  "model_id": "afterwm",
+  "name": "afterwm",
+  "optimizer": "Adam",
+  "original_target": 290437,
+  "router_gamma": "pinned",
+  "sigma": 0.5,
+  "widths": [
+   108,
+   146,
+   92,
+   94,
+   23
+  ]
+ },
+ "lr_mult": 10.0,
+ "module": "afterwm.model",
+ "native_lr": 0.0001,
+ "protocol": "p2",
+ "steps": 16000,
+ "val_every": 1000,
+ "variant": {
+  "router_gamma": "pinned"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "budget_class": "baseline",
+ "cfg": {
+  "adam_eps": 1e-08,
+  "budget_class": "baseline",
+  "budget_target": 700000,
+  "cell_hidden": null,
+  "delta_std_eps": 1e-10,
+  "eval_chunk": 240,
+  "family": "baseline",
+  "grad_clip": 1.0,
+  "hidden": 584,
+  "lr": 0.1,
+  "model_id": "rebal",
+  "name": "rebal",
+  "nonlinearity": "tanh",
+  "optimizer": "Adam",
+  "param_count_formula": 700227
+ },
+ "lr_mult": 10.0,
+ "module": "baselines.rebal",
+ "native_lr": 0.01,
+ "protocol": "p2",
+ "steps": 16000,
+ "val_every": 1000,
+ "variant": {}
+}

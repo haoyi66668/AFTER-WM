@@ -1,0 +1,71 @@
+{
+ "datasets": {
+  "alfa": {
+   "eval_mode": "sample16",
+   "included_seeds": [
+    20260910,
+    20270913
+   ],
+   "scores": {
+    "mode": 0.2486566384543223,
+    "sample16": 0.204103812507695
+   }
+  },
+  "escphc": {
+   "eval_mode": "sample16",
+   "included_seeds": [
+    20260910,
+    20270913
+   ],
+   "scores": {
+    "mode": 0.3806258145844057,
+    "sample16": 0.3538671335512157
+   }
+  },
+  "hopper": {
+   "eval_mode": "sample16",
+   "included_seeds": [
+    20260910,
+    20270913
+   ],
+   "scores": {
+    "mode": 0.16806345752811488,
+    "sample16": 0.15586942363031142
+   }
+  },
+  "jshc": {
+   "eval_mode": "sample16",
+   "included_seeds": [
+    20260910,
+    20270913
+   ],
+   "scores": {
+    "mode": 0.20687926521001085,
+    "sample16": 0.20656216555686013
+   }
+  },
+  "panda": {
+   "eval_mode": "sample16",
+   "included_seeds": [
+    20260910,
+    20270913
+   ],
+   "scores": {
+    "mode": 0.3230510623329361,
+    "sample16": 0.29018125149098073
+   }
+  },
+  "ur5e": {
+   "eval_mode": "sample16",
+   "included_seeds": [
+    20260910,
+    20270913
+   ],
+   "scores": {
+    "mode": 0.3324587128707661,
+    "sample16": 0.3298035273853701
+   }
+  }
+ },
+ "rule": "RSSM evaluation mode in {mode, sample16 (mean of 16 samples keyed by the query)}; VAL selection metric of the trained runs of seeds 20260910 and 20270913, mean over the seeds; lowest finite score wins; exact tie -> mode; a diverged seed is left out; no finite score -> mode; training is unchanged"
+}

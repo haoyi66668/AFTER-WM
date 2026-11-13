@@ -1,0 +1,34 @@
+{
+ "budget_class": "baseline",
+ "cfg": {
+  "activation": "SiLU",
+  "adam_betas": [
+   0.9,
+   0.999
+  ],
+  "adam_eps": 1e-08,
+  "budget_class": "baseline",
+  "budget_target": 700000,
+  "eval_chunk": 240,
+  "family": "baseline",
+  "grad_clip": 1.0,
+  "hidden": 477,
+  "history_k": 1,
+  "loss": "afterwm.core.strict_loss(K=1, route_log_p=0) via baselines.seq_utils.loss_from_pred",
+  "lr": 0.0009,
+  "model_id": "mlp",
+  "n_hidden_layers": 4,
+  "name": "mlp",
+  "optimizer": "Adam",
+  "param_count_formula": 701204
+ },
+ "lr_mult": 3.0,
+ "module": "baselines.mlp",
+ "native_lr": 0.0003,
+ "protocol": "p2",
+ "steps": 16000,
+ "val_every": 1000,
+ "variant": {
+  "history_k": 1
+ }
+}

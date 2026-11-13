@@ -1,0 +1,64 @@
+{
+ "jshc": {
+  "queries": 1440,
+  "phase": {
+   "1-4": 33,
+   "5-19": 181,
+   "20-59": 454,
+   ">=60": 441,
+   "none": 331
+  },
+  "no_change": 280
+ },
+ "escphc": {
+  "queries": 1440,
+  "phase": {
+   "G1": 253,
+   "G2": 287,
+   "G3": 256,
+   "G4": 619,
+   "G5": 25
+  },
+  "no_change": 25
+ },
+ "panda": {
+  "queries": 1440,
+  "phase": {
+   "1-4": 192,
+   "5-19": 192,
+   "20-59": 672,
+   ">=60": 144,
+   "none": 240
+  },
+  "no_change": 384,
+  "transient_only": 378
+ },
+ "ur5e": {
+  "queries": 1440,
+  "phase": {
+   "1-4": 192,
+   "5-19": 192,
+   "20-59": 672,
+   ">=60": 144,
+   "none": 240
+  },
+  "no_change": 384,
+  "transient_only": 370
+ },
+ "hopper": {
+  "queries": 1440,
+  "phase": {
+   "1-4": 192,
+   "5-19": 192,
+   "20-59": 672,
+   ">=60": 144,
+   "none": 240
+  },
+  "no_change": 384,
+  "transient_only": 381
+ },
+ "escphc_beyond": {
+  "queries": 1440,
+  "beyond_range": 916
+ }
+}

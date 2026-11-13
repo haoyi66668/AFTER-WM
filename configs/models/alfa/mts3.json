@@ -1,0 +1,40 @@
+{
+ "budget_class": "baseline",
+ "cfg": {
+  "H_manager": 15,
+  "adam_eps": 1e-08,
+  "budget_class": "baseline",
+  "budget_target": 700000,
+  "budget_tol": 0.01,
+  "eval_chunk": 720,
+  "family": "baseline",
+  "grad_clip": 5.0,
+  "latent_obs_dim": 30,
+  "loss": "upstream gaussian_nll on future indices 64..103 (sum dims, mean samples)",
+  "lr": 0.00030000000000000003,
+  "manager_action_valid_upto": 64,
+  "model_id": "mts3",
+  "name": "mts3",
+  "obs_valid_upto": 64,
+  "optimizer": "Adam",
+  "param_total": 700263,
+  "variant": {},
+  "width_scale_vs_official": 6.425,
+  "widths": {
+   "abstract_act_encoder": 1542,
+   "abstract_obs_encoder": 1542,
+   "control_net": 771,
+   "obs_decoder": 1542,
+   "obs_encoder": 771
+  },
+  "window_act": 120,
+  "window_obs": 105
+ },
+ "lr_mult": 0.1,
+ "module": "baselines.mts3",
+ "native_lr": 0.003,
+ "protocol": "p2",
+ "steps": 16000,
+ "val_every": 1000,
+ "variant": {}
+}

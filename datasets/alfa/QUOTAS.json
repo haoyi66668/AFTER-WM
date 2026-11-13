@@ -1,0 +1,13 @@
+{
+ "seed": 20261021,
+ "strata": ["engine", "surface", "none", "unlabelled"],
+ "quotas": {
+  "engine":     {"test": 4, "test_b": 4, "val": 3, "train": 8},
+  "surface":    {"test": 2, "test_b": 2, "val": 1, "train": 3},
+  "none":       {"test": 1, "test_b": 1, "val": 1, "train": 0},
+  "unlabelled": {"test": 0, "test_b": 0, "val": 0, "train": 1}
+ },
+ "probe_groups": ["carbonZ_2018-07-18-15-53-31", "carbonZ_2018-09-11-14-41-51", "carbonZ_2018-09-11-15-06-34",
+                  "carbonZ_2018-09-11-17-55-30"],
+ "unit": "groups (one group = all processed sequences of one ALFA bag = one physical flight); every eligible window of a selected group goes to that split"
+}

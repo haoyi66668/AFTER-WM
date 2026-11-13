@@ -1,0 +1,95 @@
+{
+ "models": {
+  "gpmm": {
+   "lr": null,
+   "lr_mult": 1.0,
+   "native_lr": null,
+   "protocol": "p1"
+  },
+  "grbal": {
+   "lr": 0.003,
+   "lr_mult": 3.0,
+   "native_lr": 0.001,
+   "protocol": "p2"
+  },
+  "mbcd": {
+   "lr": 0.01,
+   "lr_mult": 10.0,
+   "native_lr": 0.001,
+   "protocol": "p2"
+  },
+  "mlp": {
+   "lr": 0.0009,
+   "lr_mult": 3.0,
+   "native_lr": 0.0003,
+   "protocol": "p2"
+  },
+  "mole": {
+   "lr": 0.003,
+   "lr_mult": 3.0,
+   "native_lr": 0.001,
+   "protocol": "p2"
+  },
+  "mts3": {
+   "lr": 0.00030000000000000003,
+   "lr_mult": 0.1,
+   "native_lr": 0.003,
+   "protocol": "p2"
+  },
+  "rebal": {
+   "lr": 0.1,
+   "lr_mult": 10.0,
+   "native_lr": 0.01,
+   "protocol": "p2"
+  },
+  "rssm": {
+   "lr": 0.0012000000000000001,
+   "lr_mult": 30.0,
+   "native_lr": 4e-05,
+   "protocol": "p2"
+  },
+  "tdmpc2": {
+   "lr": 0.0029999999999999996,
+   "lr_mult": 10.0,
+   "native_lr": 0.0003,
+   "protocol": "p2"
+  },
+  "tdmpc2_h40": {
+   "lr": 0.0003,
+   "lr_mult": 1.0,
+   "native_lr": 0.0003,
+   "protocol": "p2"
+  },
+  "afterwm": {
+   "lr": 0.001,
+   "lr_mult": 10.0,
+   "native_lr": 0.0001,
+   "protocol": "p2"
+  },
+  "afterwm_fast_only": {
+   "lr": 0.001,
+   "lr_mult": 10.0,
+   "native_lr": 0.0001,
+   "protocol": "p2"
+  },
+  "afterwm_gamma1": {
+   "lr": 0.001,
+   "lr_mult": 10.0,
+   "native_lr": 0.0001,
+   "protocol": "p2"
+  },
+  "afterwm_no_error_input": {
+   "lr": 0.001,
+   "lr_mult": 10.0,
+   "native_lr": 0.0001,
+   "protocol": "p2"
+  },
+  "afterwm_slow_only": {
+   "lr": 0.001,
+   "lr_mult": 10.0,
+   "native_lr": 0.0001,
+   "protocol": "p2"
+  }
+ },
+ "note": "fixed learning-rate multipliers (x native learning rate), selected once on a HalfCheetah development dataset that is not used for evaluation; GPMM has no SGD learning rate"
+}

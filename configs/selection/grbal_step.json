@@ -1,0 +1,526 @@
+{
+ "datasets": {
+  "alfa": {
+   "final": {
+    "arms": {
+     "0.001": {
+      "eligible": true,
+      "score": 0.055882352499761145,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.05993898132741806,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.05182572367210423,
+        "status": "complete"
+       }
+      }
+     },
+     "0.01": {
+      "eligible": true,
+      "score": 0.054332972784973885,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.05433234895433788,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.05433359661560988,
+        "status": "complete"
+       }
+      }
+     },
+     "0.1": {
+      "eligible": true,
+      "score": 0.055213929904806586,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.05391639984910721,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.05651145996050595,
+        "status": "complete"
+       }
+      }
+     }
+    },
+    "chosen_inner_lr": 0.01,
+    "extension_chosen": false,
+    "status": "chosen"
+   },
+   "stage1": {
+    "arms": {
+     "0.001": {
+      "eligible": true,
+      "score": 0.055882352499761145,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.05993898132741806,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.05182572367210423,
+        "status": "complete"
+       }
+      }
+     },
+     "0.01": {
+      "eligible": true,
+      "score": 0.054332972784973885,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.05433234895433788,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.05433359661560988,
+        "status": "complete"
+       }
+      }
+     }
+    },
+    "extension_inner_lr": 0.1,
+    "extension_needed": true,
+    "stage1_choice": 0.01
+   }
+  },
+  "escphc": {
+   "final": {
+    "arms": {
+     "0.0001": {
+      "eligible": true,
+      "score": 0.29944506423520467,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.30593806661361184,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.2929520618567975,
+        "status": "complete"
+       }
+      }
+     },
+     "0.001": {
+      "eligible": true,
+      "score": 0.30379587029767596,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.31109122851964227,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.2965005120757096,
+        "status": "complete"
+       }
+      }
+     },
+     "0.01": {
+      "eligible": true,
+      "score": 0.31357698003651646,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.31215641940583166,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.3149975406672012,
+        "status": "complete"
+       }
+      }
+     }
+    },
+    "chosen_inner_lr": 0.0001,
+    "extension_chosen": true,
+    "status": "chosen"
+   },
+   "stage1": {
+    "arms": {
+     "0.001": {
+      "eligible": true,
+      "score": 0.30379587029767596,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.31109122851964227,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.2965005120757096,
+        "status": "complete"
+       }
+      }
+     },
+     "0.01": {
+      "eligible": true,
+      "score": 0.31357698003651646,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.31215641940583166,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.3149975406672012,
+        "status": "complete"
+       }
+      }
+     }
+    },
+    "extension_inner_lr": 0.0001,
+    "extension_needed": true,
+    "stage1_choice": 0.001
+   }
+  },
+  "hopper": {
+   "final": {
+    "arms": {
+     "0.001": {
+      "eligible": true,
+      "score": 0.12857557165092737,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.12901212841952556,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.1281390148823292,
+        "status": "complete"
+       }
+      }
+     },
+     "0.01": {
+      "eligible": true,
+      "score": 0.11847728022429277,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.11641723062557222,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.12053732982301332,
+        "status": "complete"
+       }
+      }
+     },
+     "0.1": {
+      "eligible": true,
+      "score": 0.10457945951885098,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.09959754160297177,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.10956137743473018,
+        "status": "complete"
+       }
+      }
+     }
+    },
+    "chosen_inner_lr": 0.1,
+    "extension_chosen": true,
+    "status": "chosen"
+   },
+   "stage1": {
+    "arms": {
+     "0.001": {
+      "eligible": true,
+      "score": 0.12857557165092737,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.12901212841952556,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.1281390148823292,
+        "status": "complete"
+       }
+      }
+     },
+     "0.01": {
+      "eligible": true,
+      "score": 0.11847728022429277,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.11641723062557222,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.12053732982301332,
+        "status": "complete"
+       }
+      }
+     }
+    },
+    "extension_inner_lr": 0.1,
+    "extension_needed": true,
+    "stage1_choice": 0.01
+   }
+  },
+  "jshc": {
+   "final": {
+    "arms": {
+     "0.001": {
+      "eligible": true,
+      "score": 0.2246688916590759,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.22929410245802379,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.22004368086012796,
+        "status": "complete"
+       }
+      }
+     },
+     "0.01": {
+      "eligible": true,
+      "score": 0.21250200168695807,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.2135014222670597,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.21150258110685644,
+        "status": "complete"
+       }
+      }
+     },
+     "0.1": {
+      "eligible": true,
+      "score": 0.20671803442647438,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.21031836594429193,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.20311770290865683,
+        "status": "complete"
+       }
+      }
+     }
+    },
+    "chosen_inner_lr": 0.1,
+    "extension_chosen": true,
+    "status": "chosen"
+   },
+   "stage1": {
+    "arms": {
+     "0.001": {
+      "eligible": true,
+      "score": 0.2246688916590759,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.22929410245802379,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.22004368086012796,
+        "status": "complete"
+       }
+      }
+     },
+     "0.01": {
+      "eligible": true,
+      "score": 0.21250200168695807,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.2135014222670597,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.21150258110685644,
+        "status": "complete"
+       }
+      }
+     }
+    },
+    "extension_inner_lr": 0.1,
+    "extension_needed": true,
+    "stage1_choice": 0.01
+   }
+  },
+  "panda": {
+   "final": {
+    "arms": {
+     "0.001": {
+      "eligible": true,
+      "score": 0.10214915913135128,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.09992426649959603,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.10437405176310655,
+        "status": "complete"
+       }
+      }
+     },
+     "0.01": {
+      "eligible": true,
+      "score": 0.08310787178985246,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.08474680523117824,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.08146893834852667,
+        "status": "complete"
+       }
+      }
+     },
+     "0.1": {
+      "eligible": true,
+      "score": 0.0740754246134834,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.07135385956081301,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.07679698966615381,
+        "status": "complete"
+       }
+      }
+     }
+    },
+    "chosen_inner_lr": 0.1,
+    "extension_chosen": true,
+    "status": "chosen"
+   },
+   "stage1": {
+    "arms": {
+     "0.001": {
+      "eligible": true,
+      "score": 0.10214915913135128,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.09992426649959603,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.10437405176310655,
+        "status": "complete"
+       }
+      }
+     },
+     "0.01": {
+      "eligible": true,
+      "score": 0.08310787178985246,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.08474680523117824,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.08146893834852667,
+        "status": "complete"
+       }
+      }
+     }
+    },
+    "extension_inner_lr": 0.1,
+    "extension_needed": true,
+    "stage1_choice": 0.01
+   }
+  },
+  "ur5e": {
+   "final": {
+    "arms": {
+     "0.001": {
+      "eligible": true,
+      "score": 0.13438766897521265,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.12148624511467807,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.14728909283574723,
+        "status": "complete"
+       }
+      }
+     },
+     "0.01": {
+      "eligible": true,
+      "score": 0.07500200103280649,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.07546833494098636,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.07453566712462663,
+        "status": "complete"
+       }
+      }
+     },
+     "0.1": {
+      "eligible": true,
+      "score": 0.07628756335412543,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.08173002485979908,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.07084510184845179,
+        "status": "complete"
+       }
+      }
+     }
+    },
+    "chosen_inner_lr": 0.01,
+    "extension_chosen": false,
+    "status": "chosen"
+   },
+   "stage1": {
+    "arms": {
+     "0.001": {
+      "eligible": true,
+      "score": 0.13438766897521265,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.12148624511467807,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.14728909283574723,
+        "status": "complete"
+       }
+      }
+     },
+     "0.01": {
+      "eligible": true,
+      "score": 0.07500200103280649,
+      "seeds": {
+       "20260910": {
+        "best_val": 0.07546833494098636,
+        "status": "complete"
+       },
+       "20270913": {
+        "best_val": 0.07453566712462663,
+        "status": "complete"
+       }
+      }
+     }
+    },
+    "extension_inner_lr": 0.1,
+    "extension_needed": true,
+    "stage1_choice": 0.01
+   }
+  }
+ },
+ "rule_final": "final step over {0.001, 0.01} + the stage-1 extension; mean best VAL of the two seeds; eligible iff neither seed diverged; lower wins; ties -> native 0.001, then the value closest to 0.001 in |log10|",
+ "rule_stage1": "inner step in {0.001 (native), 0.01} at the fixed learning rate; mean best VAL of seeds 20260910+20270913; eligible iff neither seed diverged; lower wins, ties -> native; one extension: 0.01 -> 0.1, 0.001 -> 0.0001",
+ "seeds": [
+  20260910,
+  20270913
+ ]
+}

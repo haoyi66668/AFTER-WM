@@ -1,0 +1,33 @@
+{
+ "budget_class": "baseline",
+ "cfg": {
+  "budget_class": "baseline",
+  "budget_target": 700000,
+  "consistency_coef": 20.0,
+  "dec_coef": 1.0,
+  "dec_dim": null,
+  "enc_dim": 256,
+  "enc_lr_scale": 0.3,
+  "eval_chunk": 240,
+  "family": "baseline",
+  "grad_clip": 20.0,
+  "horizon": 3,
+  "latent_dim": 128,
+  "lr": 0.0029999999999999996,
+  "mlp_dim": 482,
+  "model_id": "tdmpc2",
+  "name": "tdmpc2",
+  "num_enc_layers": 2,
+  "optimizer": "Adam",
+  "param_count_formula": 700138,
+  "rho": 0.5,
+  "simnorm_dim": 8
+ },
+ "lr_mult": 10.0,
+ "module": "baselines.tdmpc2",
+ "native_lr": 0.0003,
+ "protocol": "p2",
+ "steps": 16000,
+ "val_every": 1000,
+ "variant": {}
+}

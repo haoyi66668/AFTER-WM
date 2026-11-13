@@ -1,0 +1,16 @@
+results/
+runs/
+data/prepared/
+.venv/
+__pycache__/
+datasets/panda_model/
+datasets/ur5e_model/
+datasets/alfa/processed.zip
+baselines/third_party/mts3/agent/
+*.py[cod]
+.DS_Store
+._*
+venv*/
+*.log
+.env
+.env.*

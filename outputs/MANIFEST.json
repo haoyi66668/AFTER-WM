@@ -1,0 +1,253 @@
+{
+ "name": "stored evaluation outputs",
+ "description": "Per-query, per-step, label, analysis, control and example outputs from which experiments/all_from_outputs.sh recomputes the results listed in README.md. All files are included in this repository.",
+ "n_files": 49,
+ "total_bytes": 76874534,
+ "files": [
+  {
+   "path": "outputs/SHA256SUMS",
+   "bytes": 4637,
+   "sha256": "ff613452d2a0776be779fed00e94924b78ad25c107b306bb07f7d996934718d6"
+  },
+  {
+   "path": "outputs/analysis/beyond_range.npz",
+   "bytes": 629947,
+   "sha256": "97d2fcdec75aead362fcc90b8bf743ff9483e97dbbbeb42dcc550b22c984a238"
+  },
+  {
+   "path": "outputs/analysis/interventions.npz",
+   "bytes": 1310100,
+   "sha256": "96868bd1076d50ede700b97422779b463f157a8f6b82edd614f8d4d35543835f"
+  },
+  {
+   "path": "outputs/analysis/probes.json",
+   "bytes": 30969,
+   "sha256": "d1dca57d0b6dba300fc81d1eeff1e38563585ee3cf740ed4b5318434bba9b3d9"
+  },
+  {
+   "path": "outputs/analysis/removal.npz",
+   "bytes": 2156008,
+   "sha256": "576c2b7fbafe167ab7393cfed13a3ed6d792315eff1dba800001296e56c9f0b1"
+  },
+  {
+   "path": "outputs/analysis/routing.npz",
+   "bytes": 493130,
+   "sha256": "4e5378e94b67bc76c358e45262bd1e39e11e892ea01d20e91c918a747a5f1e95"
+  },
+  {
+   "path": "outputs/control/returns.npz",
+   "bytes": 21154,
+   "sha256": "e991201ea5b496ce02e6ad0f8f1ff4e113b0348aa1058fc563f80a1f18dbef27"
+  },
+  {
+   "path": "outputs/examples/frames/panda_afterwm_k1.png",
+   "bytes": 41249,
+   "sha256": "a75d61903c722a5fcb27c2513fbb1538cc938591bdb54d3ce840a99a6073f20d"
+  },
+  {
+   "path": "outputs/examples/frames/panda_afterwm_k10.png",
+   "bytes": 41607,
+   "sha256": "74231b3b5e19776f3b6ccede4b443a59b29ac8b98b7fb1d8eef0f938e0beb5a6"
+  },
+  {
+   "path": "outputs/examples/frames/panda_afterwm_k20.png",
+   "bytes": 41319,
+   "sha256": "05530de5f8dbbab07218125d3b0609db88f1339fa0667c894dbd6c3c1435eb36"
+  },
+  {
+   "path": "outputs/examples/frames/panda_afterwm_k40.png",
+   "bytes": 46256,
+   "sha256": "818ec0514b9ac6551c8fa3bf3572938d27e87b01bada73a57b6d30e3cbd61950"
+  },
+  {
+   "path": "outputs/examples/frames/panda_afterwm_k5.png",
+   "bytes": 41313,
+   "sha256": "e9382a1ee4bcb4200cad56da900d43c535fd9fb5ddb6f0aff3d9b2a745eb8d8e"
+  },
+  {
+   "path": "outputs/examples/frames/panda_compared_k1.png",
+   "bytes": 41302,
+   "sha256": "18349b4735510744a5bf05bbfed4f72504f217a6a6f83adc9c619411f45eaeaa"
+  },
+  {
+   "path": "outputs/examples/frames/panda_compared_k10.png",
+   "bytes": 42318,
+   "sha256": "959979835a4a720a8e25863d337a7de41eb39e764b2d0a68e6573a4ba60125b1"
+  },
+  {
+   "path": "outputs/examples/frames/panda_compared_k20.png",
+   "bytes": 43911,
+   "sha256": "1734fb0c8a1971b3258d7175c5b22202992657c5b9b432bdb305003e4d11b8ea"
+  },
+  {
+   "path": "outputs/examples/frames/panda_compared_k40.png",
+   "bytes": 50157,
+   "sha256": "2b75cb730c09c43ccd799162dbc7972059748809e680a3e5cdc373e2d3cc7c73"
+  },
+  {
+   "path": "outputs/examples/frames/panda_compared_k5.png",
+   "bytes": 41427,
+   "sha256": "e3f4f78235f15c8518968d8b0bba657c05d57303fce0cca8d04f90f0e79e598f"
+  },
+  {
+   "path": "outputs/examples/frames/ur5e_afterwm_k1.png",
+   "bytes": 23966,
+   "sha256": "c3e7ce3e687b85fc3a1cf05a7e3455ccf6ddb0a8cdc6149a75ee5f15eaed13aa"
+  },
+  {
+   "path": "outputs/examples/frames/ur5e_afterwm_k10.png",
+   "bytes": 23510,
+   "sha256": "15de7b0eddc3b8aef48d7f81ffadd73648f114b3c59590a07800503351e906f9"
+  },
+  {
+   "path": "outputs/examples/frames/ur5e_afterwm_k20.png",
+   "bytes": 23717,
+   "sha256": "8dfe6a34e7dca5c54e086b8960f21f17f4b2bdab590c2bdc395d1b114c14bc44"
+  },
+  {
+   "path": "outputs/examples/frames/ur5e_afterwm_k40.png",
+   "bytes": 23464,
+   "sha256": "87ea9235fc22c2fb753fdaaadb0f53d139366c2aca643eb90ddeeccc3950b6e1"
+  },
+  {
+   "path": "outputs/examples/frames/ur5e_afterwm_k5.png",
+   "bytes": 23602,
+   "sha256": "b9a841fe2b8628caedce932a271f25d03e8710826b65c2f7104b11b203c866ac"
+  },
+  {
+   "path": "outputs/examples/frames/ur5e_compared_k1.png",
+   "bytes": 23978,
+   "sha256": "f39064163e3dcef14e99fd103da884b86a60bb9346421bddbb305850f6a49de0"
+  },
+  {
+   "path": "outputs/examples/frames/ur5e_compared_k10.png",
+   "bytes": 23636,
+   "sha256": "4eb2da01003c651f1600142eab12213a58265f59fe6faa911acdfc1f5cf844b6"
+  },
+  {
+   "path": "outputs/examples/frames/ur5e_compared_k20.png",
+   "bytes": 24000,
+   "sha256": "af3e47ff4740f6855d134bab04c941a9b8394fbcb8a1ed2c158336a4020f131d"
+  },
+  {
+   "path": "outputs/examples/frames/ur5e_compared_k40.png",
+   "bytes": 24614,
+   "sha256": "20e4f88dcb5f3748af3290a5a40071812c9e0320a7c7db35bb05129c2c371178"
+  },
+  {
+   "path": "outputs/examples/frames/ur5e_compared_k5.png",
+   "bytes": 23616,
+   "sha256": "fb78f9badf4c887e064ab987083bf4dfc5f27e565dcde2e2ba048e2fd8de3050"
+  },
+  {
+   "path": "outputs/examples/panda.json",
+   "bytes": 5435,
+   "sha256": "f12fb100624b92cad79e56453b7b6af6ba1b717d60ae3480e30ab737ecc06d43"
+  },
+  {
+   "path": "outputs/examples/ur5e.json",
+   "bytes": 5355,
+   "sha256": "d655bbe000deff73527ccb593854a177b3cd53c1526b6c707153c06de4a8d5ab"
+  },
+  {
+   "path": "outputs/labels/LABEL_COUNTS.json",
+   "bytes": 884,
+   "sha256": "eeac0887da7f1be6d649866be33ded4a88f4f9d5e30aa97281c5449aa2f4f738"
+  },
+  {
+   "path": "outputs/labels/labels_escphc.npz",
+   "bytes": 9394,
+   "sha256": "e68ccbefc2bfd5034497bafb31b7c7b83bceec2e0c60aa0ccb8ade40d8ebc936"
+  },
+  {
+   "path": "outputs/labels/labels_escphc_beyond.npz",
+   "bytes": 6856,
+   "sha256": "0f22d27e6c4231680b6ccfcc25a43570a628e1aa6fa1fe4fb184670dd7225b44"
+  },
+  {
+   "path": "outputs/labels/labels_hopper.npz",
+   "bytes": 9407,
+   "sha256": "42ba50f3cd2328f6fae6629b1f7af3ff4c759f217977b5387fb22774d47cd967"
+  },
+  {
+   "path": "outputs/labels/labels_jshc.npz",
+   "bytes": 11390,
+   "sha256": "a93bef41ecd29eab2de3fca886b4793e025f3b45f63324152ae22c05065190a6"
+  },
+  {
+   "path": "outputs/labels/labels_panda.npz",
+   "bytes": 9412,
+   "sha256": "17247a733e5c823d5870d362c538da7e2b54c3940be3cefe907c4c876c0c0251"
+  },
+  {
+   "path": "outputs/labels/labels_ur5e.npz",
+   "bytes": 9416,
+   "sha256": "fa2291620584c2ed366e4a519655275ad4dd8659844b0e792384671373ed9a84"
+  },
+  {
+   "path": "outputs/per_query/alfa.npz",
+   "bytes": 1449636,
+   "sha256": "b38bc06f216b3d7ddfe36914cb7c62b9afa88ee3fb83825d2b8cb6e24826fd95"
+  },
+  {
+   "path": "outputs/per_query/escphc.npz",
+   "bytes": 2924228,
+   "sha256": "2822e0b32700a8eaaf493212bb08d29d1c8acaf53e77676bf43e73dfa38f0dbd"
+  },
+  {
+   "path": "outputs/per_query/escphc_ctx128.npz",
+   "bytes": 641435,
+   "sha256": "f9b3a7717cf597062a6b0031e7a6752cfe57622de900d196f1d6a7a942ec128a"
+  },
+  {
+   "path": "outputs/per_query/escphc_ctx32.npz",
+   "bytes": 1034636,
+   "sha256": "9316232fd1e99c1fefce5ef939e17a570eb937bdbed606ee7bc751f3526e805b"
+  },
+  {
+   "path": "outputs/per_query/hopper.npz",
+   "bytes": 2003345,
+   "sha256": "83d5ff886feec32f32f1782c38cd1605c6834b950b4bf05b4d4f8252a8087bc7"
+  },
+  {
+   "path": "outputs/per_query/jshc.npz",
+   "bytes": 2544794,
+   "sha256": "a873c918f0f5cbde7d7003a545b3fbe403af97b660850ed4a94ba85c026297ca"
+  },
+  {
+   "path": "outputs/per_query/panda.npz",
+   "bytes": 2037159,
+   "sha256": "914f16cd9be86c7fd58d183b328db65db85ba9efeb8553d968fdb51181882619"
+  },
+  {
+   "path": "outputs/per_query/ur5e.npz",
+   "bytes": 2037105,
+   "sha256": "3769a286ba7287c810df932ff7cd637b577af4e76b917a371ff0061a48f6ad67"
+  },
+  {
+   "path": "outputs/per_step/escphc.npz",
+   "bytes": 13912965,
+   "sha256": "f93a5ef13244c96acd8411fb1219b4451ffd58e571b92f64cfec2e3cf011fcba"
+  },
+  {
+   "path": "outputs/per_step/hopper.npz",
+   "bytes": 9751347,
+   "sha256": "99e3ab5267afbc212b03d80db3886617de2f7d60e65c9e7c29baac4baaf25492"
+  },
+  {
+   "path": "outputs/per_step/jshc.npz",
+   "bytes": 13556384,
+   "sha256": "667e5fd5f0fc9f2aa4b6ab673152601bebdedb61af8167d8e87dc2df6eaddc37"
+  },
+  {
+   "path": "outputs/per_step/panda.npz",
+   "bytes": 9793514,
+   "sha256": "c9c94dd6cbfe7f307cc7d736412f7c16c1bb92ad652195a23db988bbca4bf1a0"
+  },
+  {
+   "path": "outputs/per_step/ur5e.npz",
+   "bytes": 9805530,
+   "sha256": "2b14a1829cbb7477d1f0895bc09aab0dc4242951bafc9c7488213e5d12233bd2"
+  }
+ ]
+}
